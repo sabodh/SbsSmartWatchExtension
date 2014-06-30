@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="@dimen/smart_watch_2_control_width"
+                android:layout_height="@dimen/smart_watch_2_control_height"
+                tools:ignore="PxUsage,UselessParent,HardcodedText" >
+
+    <TextView
+            android:id="@+id/options_title"
+            android:layout_width="fill_parent"
+            android:layout_height="17dp"
+            android:layout_alignParentTop="true"
+            android:paddingTop="0dp"
+            android:paddingBottom="3dp"
+            android:text="OPTIONS"
+            android:gravity="center"
+            android:background="@color/dark_green_background"
+            android:textSize="12dp"
+            android:textColor="@color/white"
+            />
+
+    <Button
+            android:id="@+id/options_reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/options_title"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="RESET"
+            android:layout_marginTop="5dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:background="@color/dark_green_background" />
+
+    <Button
+            android:id="@+id/options_help_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/options_reset_button"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="HELP"
+            android:layout_marginTop="2dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:background="@color/dark_green_background" />
+
+</RelativeLayout>

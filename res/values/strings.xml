@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Swing by Swing SmartWatch Service</string>
+    <string name="configuration_text">This is the configuration text</string>
+    <string name="extension_name">Swing by Swing</string>
+    <string name="preference_activity_title">Preference Activity</string>
+    <string name="preference_key_read_me">Preference key read-me</string>
+    <string name="preference_option_read_me">Preference option read-me</string>
+    <string name="preference_option_read_me_txt">Preference option read-me text</string>
+    <string name="help_config_title">CONFIGURATION</string>
+    <string name="help_config_body_1">Swing by Swing Golf is required on your mobile device.  Install from the Google Play Store.</string>
+    <string name="help_config_body_2">Go to Application Settings -> Accessories -> SmartWatch 2, and make sure it is set to ON, then press Save.</string>
+    <string name="help_config_body_3">Start a round, distance and score info should be sent to your watch for easy access.</string>
+    <string name="help_config_body_4">Still not receiving in-round info? Go to Smart Connect and make sure your watch is properly connected.</string>
+    <string name="help_getting_started_title">GETTING STARTED</string>
+    <string name="help_getting_started_body_1">Search for a course on your mobile device and start a round at that course.</string>
+    <string name="help_getting_started_body_2">Select the players and scorecard type you wish to use.  Then press "Start Round."</string>
+    <string name="help_getting_started_body_3">Distance and score info will show on your watch and be synced to your mobile device.</string>
+    <string name="help_getting_started_body_4">Looper members can record shots and track distances with their clubs.</string>
+    <string name="help_distances_title">DISTANCES</string>
+    <string name="help_distances_body_1">Press HOLE NUMBER button to bring up a list of holes or enter score.</string>
+    <string name="help_distances_body_2">Press the middle DISTANCE button to wake GPS.</string>
+    <string name="help_distances_body_3">Press the bottom SHOT DISTANCE button to start or end a shot.</string>
+    <string name="help_scorecard_title">SCORECARD</string>
+    <string name="help_scorecard_body_1">If you have a scorecard configured, you will see current totals for all players.</string>
+    <string name="help_scorecard_body_2">To change between score, and points, use the OPTIONS button in the top right.</string>
+    <string name="help_club_tracker_title">CLUB TRACKER</string>
+    <string name="help_club_tracker_body_1">A list of recorded shots will be displayed for the current round.</string>
+    <string name="help_club_tracker_body_2">Non Looper members will be able to track their current shot, but not record their shots.</string>
+</resources>
