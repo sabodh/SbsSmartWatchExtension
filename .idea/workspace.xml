@@ -28,21 +28,21 @@
     <list default="true" id="9a5fb65f-d36b-457b-b7af-adb5c2eed009" name="Default" comment="" />
     <ignored path="SbsSmartWatchExtension.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/AndroidManifest.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404064848161" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/res/values/com_crashlytics_export_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404094908936" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404164152390" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/res/values/com_crashlytics_export_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404179357117" ignored="false" />
     <file path="/strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403891062748" ignored="false" />
     <file path="/SmartWatchService.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404012225972" ignored="false" />
-    <file path="/a.dummy" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403929780890" ignored="false" />
+    <file path="/a.dummy" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404273438143" ignored="false" />
     <file path="/SmartWatchRegistrationInformation.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403881250972" ignored="false" />
     <file path="/SmartWatchPreferenceActivity.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403797333577" ignored="false" />
     <file path="/WaitingForRoundControl.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403798692581" ignored="false" />
-    <file path="/Dummy.txt" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404081822235" ignored="false" />
+    <file path="/Dummy.txt" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404321825049" ignored="false" />
     <file path="/fragment.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403806531851" ignored="false" />
-    <file path="/waiting_for_round_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403814464687" ignored="false" />
+    <file path="/waiting_for_round_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404181808958" ignored="false" />
     <file path="/colors.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403813639658" ignored="false" />
     <file path="/SmartWatchReceiver.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403930024622" ignored="false" />
     <file path="/SmartWatchControl.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404060768245" ignored="false" />
-    <file path="/help_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403827866963" ignored="false" />
+    <file path="/help_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404165915714" ignored="false" />
     <file path="/help_config_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403888717729" ignored="false" />
     <file path="/help_getting_started_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403889020989" ignored="false" />
     <file path="/help_distances_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403889010962" ignored="false" />
@@ -56,39 +56,59 @@
     <file path="/round_options_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403913654764" ignored="false" />
     <file path="/SmartWatchErrorHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403902171637" ignored="false" />
     <file path="/SmartWatchThreadHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403902206658" ignored="false" />
-    <file path="/hole_selection_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403914496254" ignored="false" />
+    <file path="/hole_selection_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404250213569" ignored="false" />
     <file path="/hole_selection_score_entry_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403924443415" ignored="false" />
     <file path="/hole_selection_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403931731889" ignored="false" />
-    <file path="/list_item_1.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403931933782" ignored="false" />
+    <file path="/list_item_1.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404324084620" ignored="false" />
     <file path="/SmartWatchTestHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404012542756" ignored="false" />
     <file path="/round_distances_bad_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404005856093" ignored="false" />
     <file path="/round_distances_good_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404005871317" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsGearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404009060908" ignored="false" />
-    <file path="/SbsGearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404009057213" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsGearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404225062090" ignored="false" />
+    <file path="/SbsGearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404225051945" ignored="false" />
     <file path="/RoundLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404064109898" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/RoundLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404064330123" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/swingbyswing/SbsSmartWatchExtension/R.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404064850116" ignored="false" />
-    <file path="/SWControl.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404083554120" ignored="false" />
-    <file path="/SWRoundLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404066095557" ignored="false" />
-    <file path="/SWHoleSelectionLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404066023345" ignored="false" />
-    <file path="/SWHelpLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404067911241" ignored="false" />
+    <file path="/SWControl.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404323707237" ignored="false" />
+    <file path="/SWRoundLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404323342098" ignored="false" />
+    <file path="/SWHoleSelectionLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404227188842" ignored="false" />
+    <file path="/SWHelpLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404164985816" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/swingbyswing/SbsSmartWatchExtension/BuildConfig.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404066453652" ignored="false" />
     <file path="/score_entry_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404068087593" ignored="false" />
-    <file path="/SWScoreEntryLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404079340144" ignored="false" />
+    <file path="/SWScoreEntryLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404275060221" ignored="false" />
     <file path="/no_score_entry_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404075885895" ignored="false" />
-    <file path="/club_selection_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404081842413" ignored="false" />
-    <file path="/SWClubSelectionLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404082149559" ignored="false" />
+    <file path="/club_selection_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404321851727" ignored="false" />
+    <file path="/SWClubSelectionLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404190805309" ignored="false" />
     <file path="/SWService.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404083210395" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/SbsCommandHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404097343219" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/SbsCommandHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404098727399" ignored="false" />
     <file path="/SbsCommandHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404097328470" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/SbsRuntimeModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404097373483" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/SbsRuntimeModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404098727399" ignored="false" />
     <file path="/SbsRuntimeModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404097368563" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/input/SbsSmartWatchInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404097563077" ignored="false" />
-    <file path="/SbsSmartWatchInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404097518655" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsSmartWatchOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404098030513" ignored="false" />
-    <file path="/SbsSmartWatchOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404097976424" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsOutputFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404098109478" ignored="false" />
-    <file path="/SbsOutputFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404098107878" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/input/SbsSmartWatchInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404225796495" ignored="false" />
+    <file path="/SbsSmartWatchInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404180683066" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsSmartWatchOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404225915382" ignored="false" />
+    <file path="/SbsSmartWatchOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404225030710" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsOutputFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404224529576" ignored="false" />
+    <file path="/SbsOutputFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404224200392" ignored="false" />
+    <file path="/distance_good_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404156735588" ignored="false" />
+    <file path="/distance_medium_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404156744595" ignored="false" />
+    <file path="/scorecard_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404324117056" ignored="false" />
+    <file path="/club_tracker_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404157441815" ignored="false" />
+    <file path="/scorecard_menu_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404158612514" ignored="false" />
+    <file path="/distance_menu_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404158654739" ignored="false" />
+    <file path="/club_tracker_menu_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404158696344" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/AndroidManifest.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404162055125" ignored="false" />
+    <file path="/SWReceiver.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404164353723" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Facades/SbsCourseFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404166884662" ignored="false" />
+    <file path="/SbsCourseFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404166883979" ignored="false" />
+    <file path="/TunnelService.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404167021932" ignored="false" />
+    <file path="/SWBridgeService.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404225421394" ignored="false" />
+    <file path="/SWExtensionService.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404252330446" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/swingbyswing/SbsSmartWatchExtension/Manifest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404168281174" ignored="false" />
+    <file path="/SWTestHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404169716191" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Facades/SbsRoundFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404180371558" ignored="false" />
+    <file path="/SbsRoundFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404180371558" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Facades/SbsScorecardFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404180396086" ignored="false" />
+    <file path="/SbsScorecardFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404180396086" ignored="false" />
+    <file path="/list_item_2.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404227219584" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +123,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -139,7 +160,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -148,60 +168,7 @@
     <favorites_list name="SbsSmartWatchExtension" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="87" selection-start="973" selection-end="1022" vertical-scroll-proportion="0.3693182">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SWControl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWControl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="62" selection-start="1280" selection-end="1280" vertical-scroll-proportion="-8.4">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#11876#12043#0" expanded="true" />
-                <element signature="e#12032#12033#0" expanded="true" />
-                <element signature="e#13004#13025#0" expanded="true" />
-                <element signature="e#13091#13107#0" expanded="true" />
-                <element signature="e#15983#15991#0" expanded="true" />
-                <element signature="e#16505#16845#0" expanded="true" />
-                <element signature="e#16834#16835#0" expanded="true" />
-                <element signature="e#23674#23690#0" expanded="true" />
-                <element signature="e#24039#24055#0" expanded="true" />
-                <element signature="e#24430#24446#0" expanded="true" />
-                <element signature="e#24785#24801#0" expanded="true" />
-                <element signature="e#25144#25160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SWService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="47" selection-start="3521" selection-end="3521" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SWTestHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWTestHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="51" selection-start="6192" selection-end="6192" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -211,22 +178,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SmartWatchReceiver.java" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SmartWatchService.java" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/RoundLayoutHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SmartWatchControl.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/waiting_for_round_control.xml" />
+        <option value="$PROJECT_DIR$/res/layout/list_item_2.xml" />
         <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWHoleSelectionLayoutHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWRoundLayoutHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWHelpLayoutHelper.java" />
-        <option value="$PROJECT_DIR$/res/layout/score_entry_control.xml" />
-        <option value="$PROJECT_DIR$/res/layout/no_score_entry_control.xml" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWScoreEntryLayoutHelper.java" />
-        <option value="$PROJECT_DIR$/res/layout/club_selection_control.xml" />
         <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWClubSelectionLayoutHelper.java" />
+        <option value="$PROJECT_DIR$/res/layout/hole_selection_control.xml" />
+        <option value="$PROJECT_DIR$/res/layout/distance_bad_control.xml" />
+        <option value="$PROJECT_DIR$/res/layout/distance_medium_control.xml" />
+        <option value="$PROJECT_DIR$/res/layout/distance_good_control.xml" />
+        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWExtensionService.java" />
+        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWScoreEntryLayoutHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWBridgeService.java" />
+        <option value="$PROJECT_DIR$/res/layout/club_selection_control.xml" />
+        <option value="$PROJECT_DIR$/res/layout/scorecard_control.xml" />
+        <option value="$PROJECT_DIR$/res/layout/list_item_1.xml" />
+        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWRoundLayoutHelper.java" />
         <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWControl.java" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWService.java" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWTestHelper.java" />
       </list>
     </option>
   </component>
@@ -262,6 +229,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -352,6 +320,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="SmartExtensionUtils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SbsSmartWatchExtension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SbsSmartWatchExtension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartExtensionUtils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SbsSmartWatchExtension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SbsSmartWatchExtension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartExtensionUtils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SbsSmartWatchExtension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SbsSmartWatchExtension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -412,14 +434,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/jackson-databind-2.3.2.jar!/" />
@@ -431,8 +452,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AndroidWearRound" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
   </component>
   <component name="RecentsManager">
@@ -473,6 +494,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -499,19 +533,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -603,23 +624,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1624" height="1028" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32953104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.40528634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -632,7 +654,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -701,71 +722,96 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="39" selection-start="571" selection-end="661" vertical-scroll-proportion="0.3409091">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWHelpLayoutHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="535" selection-end="553" vertical-scroll-proportion="0.27272728">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWRoundLayoutHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="8" selection-start="758" selection-end="866" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4144#4152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/round_control.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="571" selection-end="571" vertical-scroll-proportion="0.23550725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/waiting_for_round_control.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="40" selection-end="1935" vertical-scroll-proportion="0.036231883">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/no_score_entry_control.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.39855072">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/score_entry_control.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="441" selection-end="458" vertical-scroll-proportion="0.16304348">
+        <state line="0" column="0" selection-start="0" selection-end="1189" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/distance_bad_control.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="39" selection-start="1968" selection-end="1968" vertical-scroll-proportion="0.5072464">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/distance_medium_control.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="39" selection-start="1968" selection-end="1968" vertical-scroll-proportion="0.84903383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/distance_good_control.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="39" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.26932368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="71" selection-start="448" selection-end="448" vertical-scroll-proportion="0.2215909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWHelpLayoutHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWExtensionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="0" selection-start="2092" selection-end="2092" vertical-scroll-proportion="0.6306818">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartExtensionAPI/src/com/sonyericsson/extras/liveware/aef/control/Control.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1545" column="25" selection-start="64301" selection-end="64301" vertical-scroll-proportion="0.16032295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWBridgeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="9" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWScoreEntryLayoutHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1696#1704#0" expanded="true" />
+            <element signature="e#3409#3417#0" expanded="true" />
+            <element signature="e#4885#4893#0" expanded="true" />
+            <element signature="e#6313#6321#0" expanded="true" />
+            <element signature="e#7627#7635#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -789,81 +835,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWHoleSelectionLayoutHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="5" selection-start="612" selection-end="2407" vertical-scroll-proportion="0.8636364">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1057#1065#0" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/res/layout/list_item_1.xml">
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWClubSelectionLayoutHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1082" selection-end="1246" vertical-scroll-proportion="0.5113636">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1291#1299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWScoreEntryLayoutHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="768" selection-end="768" vertical-scroll-proportion="0.39204547">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1664#1672#0" expanded="true" />
-            <element signature="e#2505#2513#0" expanded="true" />
-            <element signature="e#3326#3334#0" expanded="true" />
-            <element signature="e#4152#4160#0" expanded="true" />
-            <element signature="e#4975#4983#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWTestHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="51" selection-start="6192" selection-end="6192" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="47" selection-start="3521" selection-end="3521" vertical-scroll-proportion="0.0">
+        <state line="5" column="50" selection-start="280" selection-end="280" vertical-scroll-proportion="-1.4423077">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/scorecard_control.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="35" selection-start="884" selection-end="884" vertical-scroll-proportion="0.3442029">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWRoundLayoutHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="67" selection-start="1348" selection-end="1357" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2775#2783#0" expanded="true" />
+            <element signature="e#4820#4828#0" expanded="true" />
+            <element signature="e#6446#6454#0" expanded="true" />
+            <element signature="e#8481#8489#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="62" selection-start="1280" selection-end="1280" vertical-scroll-proportion="-8.4">
+        <state line="517" column="14" selection-start="19386" selection-end="19386" vertical-scroll-proportion="0.36842105">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#11876#12043#0" expanded="true" />
-            <element signature="e#12032#12033#0" expanded="true" />
-            <element signature="e#13004#13025#0" expanded="true" />
-            <element signature="e#13091#13107#0" expanded="true" />
-            <element signature="e#15983#15991#0" expanded="true" />
-            <element signature="e#16505#16845#0" expanded="true" />
-            <element signature="e#16834#16835#0" expanded="true" />
-            <element signature="e#23674#23690#0" expanded="true" />
-            <element signature="e#24039#24055#0" expanded="true" />
-            <element signature="e#24430#24446#0" expanded="true" />
-            <element signature="e#24785#24801#0" expanded="true" />
-            <element signature="e#25144#25160#0" expanded="true" />
+            <element signature="e#11901#13837#0" expanded="true" />
+            <element signature="e#13822#13823#0" expanded="true" />
+            <element signature="e#21731#21739#0" expanded="true" />
+            <element signature="e#22390#22398#0" expanded="true" />
+            <element signature="e#23549#23557#0" expanded="true" />
+            <element signature="e#28198#28206#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="87" selection-start="973" selection-end="1022" vertical-scroll-proportion="0.3693182">
-          <folding />
         </state>
       </provider>
     </entry>

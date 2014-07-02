@@ -1,9 +1,10 @@
 package com.swingbyswing.SbsSmartWatchExtension.helpers;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Message;
-import com.swingbyswing.SbsSmartWatchExtension.SWService;
-import com.swingbyswing.SbsSmartWatchExtension.SWService;
+import com.swingbyswing.SbsSmartWatchExtension.SWExtensionService;
 
 import java.util.Random;
 
@@ -17,7 +18,7 @@ import java.util.Random;
 public class SWTestHelper {
 
 
-    public static void injectRoundData(final SWService smartWatchService) {
+    public static void injectRoundData(final Context context) {
         SWThreadHelper.startPromptThread(new Runnable() {
             @Override
             public void run() {
@@ -111,17 +112,16 @@ public class SWTestHelper {
                         "\t\t\t}\n" +
                         "\t\t}";
 
-                Bundle bundle = new Bundle(1);
-                bundle.putString(SWService.BUNDLE_DATA, roundData);
-                Message message = Message.obtain(null, SWService.MSG_TO_SMARTWATCH, 0, 0);
-                message.setData(bundle);
-
-                smartWatchService.handleMessage(message);
+                Intent intent = new Intent();
+                intent.setClass(context, SWExtensionService.class);
+                intent.setAction("handle_message");
+                intent.putExtra("json_string", roundData);
+                context.startService(intent);
             }
         }, 4000);
     }
 
-    public static void injectLocationData(final SWService smartWatchService) {
+    public static void injectLocationData(final Context context) {
         SWThreadHelper.startPromptThread(new Runnable() {
             @Override
             public void run() {
@@ -144,14 +144,11 @@ public class SWTestHelper {
                         "\t\t\t}\n" +
                         "\t\t}";
 
-                Bundle bundle = new Bundle(1);
-                bundle.putString(SWService.BUNDLE_DATA, locationData);
-                Message message = Message.obtain(null, SWService.MSG_TO_SMARTWATCH, 0, 0);
-                message.setData(bundle);
-
-                smartWatchService.handleMessage(message);
-
-                injectLocationData(smartWatchService);
+                Intent intent = new Intent();
+                intent.setClass(context, SWExtensionService.class);
+                intent.setAction("handle_message");
+                intent.putExtra("json_string", locationData);
+                context.startService(intent);
             }
         }, 3000);
     }

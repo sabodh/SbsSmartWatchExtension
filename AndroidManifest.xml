@@ -2,10 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.swingbyswing.SbsSmartWatchExtension"
           android:versionCode="1"
-          android:versionName="0.1" >
+          android:versionName="1.0" >
 
     <uses-sdk android:minSdkVersion="14"
-              android:targetSdkVersion="19" />
+              android:targetSdkVersion="18" />
 
     <uses-permission android:name="com.sonyericsson.extras.liveware.aef.EXTENSION_PERMISSION" />
 
@@ -20,18 +20,40 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".SWService">
+        <service android:name="com.swingbyswing.SbsSmartWatchExtension.SWExtensionService">
             <intent-filter>
-                <action android:name="com.swingbyswing.SbsSmartWatchExtension.SWService" />
+                <action android:name="com.swingbyswing.SbsSmartWatchExtension.SWExtensionService" />
             </intent-filter>
         </service>
 
-        <receiver android:name=".SWReceiver" >
+        <service android:name="com.swingbyswing.SbsSmartWatchExtension.SWBridgeService">
+            <intent-filter>
+                <action android:name="com.swingbyswing.SbsSmartWatchExtension.SWBridgeService" />
+            </intent-filter>
+        </service>
+
+        <service android:name="com.sonyericsson.extras.liveware.extension.util.TunnelService" >
+            <intent-filter>
+                <action android:name="com.sonyericsson.extras.liveware.aef.tunnel.action.BIND" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.swingbyswing.SbsSmartWatchExtension.SWReceiver" >
             <intent-filter>
                 <!-- Generic extension intents. -->
                 <action android:name="com.sonyericsson.extras.liveware.aef.registration.EXTENSION_REGISTER_REQUEST" />
                 <action android:name="com.sonyericsson.extras.liveware.aef.registration.ACCESSORY_CONNECTION" />
                 <action android:name="android.intent.action.LOCALE_CHANGED" />
+
+                <!-- Notification intents -->
+                <action android:name="com.sonyericsson.extras.liveware.aef.notification.VIEW_EVENT_DETAIL" />
+                <action android:name="com.sonyericsson.extras.liveware.aef.notification.REFRESH_REQUEST" />
+
+                <!-- Widget intents -->
+                <action android:name="com.sonyericsson.extras.aef.widget.START_REFRESH_IMAGE_REQUEST" />
+                <action android:name="com.sonyericsson.extras.aef.widget.STOP_REFRESH_IMAGE_REQUEST" />
+                <action android:name="com.sonyericsson.extras.aef.widget.ONTOUCH" />
+                <action android:name="com.sonyericsson.extras.liveware.extension.util.widget.scheduled.refresh" />
 
                 <!-- Control intents -->
                 <action android:name="com.sonyericsson.extras.aef.control.START" />

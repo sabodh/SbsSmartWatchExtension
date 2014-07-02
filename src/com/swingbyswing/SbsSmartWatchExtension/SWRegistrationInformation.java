@@ -64,7 +64,7 @@ public class SWRegistrationInformation extends RegistrationInformation {
         values.put(Registration.ExtensionColumns.CONFIGURATION_ACTIVITY, SWPreferenceActivity.class.getName());
         values.put(Registration.ExtensionColumns.CONFIGURATION_TEXT, _context.getString(R.string.configuration_text));
         values.put(Registration.ExtensionColumns.NAME, _context.getString(R.string.extension_name));
-        values.put(Registration.ExtensionColumns.EXTENSION_KEY, SWService.EXTENSION_KEY);
+        values.put(Registration.ExtensionColumns.EXTENSION_KEY, SWExtensionService.EXTENSION_KEY);
         values.put(Registration.ExtensionColumns.HOST_APP_ICON_URI, iconHostapp);
         values.put(Registration.ExtensionColumns.EXTENSION_ICON_URI, iconExtension);
         values.put(Registration.ExtensionColumns.EXTENSION_48PX_ICON_URI, iconExtension48);

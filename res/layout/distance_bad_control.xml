@@ -20,8 +20,10 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_toLeftOf="@id/divider"
-            android:text="3"
-            android:background="@color/dark_gray_background"
+            android:text="--"
+            android:background="@android:color/black"
+            android:padding="0dp"
+            android:layout_margin="0dp"
             />
     <TextView
             android:id="@+id/par_text"
@@ -31,10 +33,9 @@
             android:layout_alignParentRight="true"
             android:layout_toRightOf="@id/divider"
             android:gravity="center"
-            android:text="PAR 4"
+            android:text="--"
             android:textSize="12dp"
             android:textColor="@color/white"
-            android:background="@color/black"
             />
     <Button
             android:id="@+id/club_tracker_button"
@@ -42,8 +43,10 @@
             android:layout_height="26dp"
             android:layout_alignParentBottom="true"
             android:textSize="12dp"
-            android:text="1W - 145Y"
-            android:background="@color/dark_gray_background"
+            android:text="--"
+            android:background="@android:color/black"
+            android:padding="0dp"
+            android:layout_margin="0dp"
             />
     <Button
             android:id="@+id/distance_button"
@@ -53,8 +56,8 @@
             android:layout_above="@id/club_tracker_button"
             android:gravity="center_horizontal|top"
             android:textSize="22dp"
-            android:text="155Y"
-            android:background="@color/dark_orange_background"
+            android:text="--"
+            android:background="@color/dark_red_background"
             />
     <TextView
             android:id="@+id/active_text"

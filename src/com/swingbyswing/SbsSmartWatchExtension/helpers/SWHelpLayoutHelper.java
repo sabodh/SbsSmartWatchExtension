@@ -2,6 +2,7 @@ package com.swingbyswing.SbsSmartWatchExtension.helpers;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import com.sonyericsson.extras.liveware.aef.control.Control;
 import com.sonyericsson.extras.liveware.extension.util.control.ControlListItem;
 import com.swingbyswing.SbsSmartWatchExtension.R;
@@ -65,23 +66,23 @@ public class SWHelpLayoutHelper {
         controlListItem.layoutData = new Bundle[1];
         controlListItem.layoutData[0] = bodyBundle;
 
-        swControl.sendListItem(controlListItem);
+        swControl.sendListItemExternal(controlListItem);
     }
 
     public static void updateConfigItem(int helpConfigItem, SWControl swControl) throws Throwable {
         Context context = swControl.getContext();
 
         if (helpConfigItem == 0) {
-            swControl.sendText(R.id.help_config_body, context.getString(R.string.help_config_body_1));
+            swControl.sendTextExternal(R.id.help_config_body, context.getString(R.string.help_config_body_1));
         }
         else if (helpConfigItem == 1) {
-            swControl.sendText(R.id.help_config_body, context.getString(R.string.help_config_body_2));
+            swControl.sendTextExternal(R.id.help_config_body, context.getString(R.string.help_config_body_2));
         }
         else if (helpConfigItem == 2) {
-            swControl.sendText(R.id.help_config_body, context.getString(R.string.help_config_body_3));
+            swControl.sendTextExternal(R.id.help_config_body, context.getString(R.string.help_config_body_3));
         }
         else if (helpConfigItem == 3) {
-            swControl.sendText(R.id.help_config_body, context.getString(R.string.help_config_body_4));
+            swControl.sendTextExternal(R.id.help_config_body, context.getString(R.string.help_config_body_4));
         }
     }
 
@@ -89,16 +90,16 @@ public class SWHelpLayoutHelper {
         Context context = swControl.getContext();
 
         if (helpGettingStartedItem == 0) {
-            swControl.sendText(R.id.help_getting_started_body, context.getString(R.string.help_getting_started_body_1));
+            swControl.sendTextExternal(R.id.help_getting_started_body, context.getString(R.string.help_getting_started_body_1));
         }
         else if (helpGettingStartedItem == 1) {
-            swControl.sendText(R.id.help_getting_started_body, context.getString(R.string.help_getting_started_body_2));
+            swControl.sendTextExternal(R.id.help_getting_started_body, context.getString(R.string.help_getting_started_body_2));
         }
         else if (helpGettingStartedItem == 2) {
-            swControl.sendText(R.id.help_getting_started_body, context.getString(R.string.help_getting_started_body_3));
+            swControl.sendTextExternal(R.id.help_getting_started_body, context.getString(R.string.help_getting_started_body_3));
         }
         else if (helpGettingStartedItem == 3) {
-            swControl.sendText(R.id.help_getting_started_body, context.getString(R.string.help_getting_started_body_4));
+            swControl.sendTextExternal(R.id.help_getting_started_body, context.getString(R.string.help_getting_started_body_4));
         }
     }
 
@@ -106,13 +107,13 @@ public class SWHelpLayoutHelper {
         Context context = swControl.getContext();
 
         if (helpDistanceItem == 0) {
-            swControl.sendText(R.id.help_distances_body, context.getString(R.string.help_distances_body_1));
+            swControl.sendTextExternal(R.id.help_distances_body, context.getString(R.string.help_distances_body_1));
         }
         else if (helpDistanceItem == 1) {
-            swControl.sendText(R.id.help_distances_body, context.getString(R.string.help_distances_body_2));
+            swControl.sendTextExternal(R.id.help_distances_body, context.getString(R.string.help_distances_body_2));
         }
         else if (helpDistanceItem == 2) {
-            swControl.sendText(R.id.help_distances_body, context.getString(R.string.help_distances_body_3));
+            swControl.sendTextExternal(R.id.help_distances_body, context.getString(R.string.help_distances_body_3));
         }
     }
 
@@ -120,10 +121,10 @@ public class SWHelpLayoutHelper {
         Context context = swControl.getContext();
 
         if (helpScorecardItem == 0) {
-            swControl.sendText(R.id.help_scorecard_body, context.getString(R.string.help_scorecard_body_1));
+            swControl.sendTextExternal(R.id.help_scorecard_body, context.getString(R.string.help_scorecard_body_1));
         }
         else if (helpScorecardItem == 1) {
-            swControl.sendText(R.id.help_scorecard_body, context.getString(R.string.help_scorecard_body_2));
+            swControl.sendTextExternal(R.id.help_scorecard_body, context.getString(R.string.help_scorecard_body_2));
         }
     }
 
@@ -131,10 +132,10 @@ public class SWHelpLayoutHelper {
         Context context = swControl.getContext();
 
         if (helpClubTrackerItem == 0) {
-            swControl.sendText(R.id.help_club_tracker_body, context.getString(R.string.help_club_tracker_body_1));
+            swControl.sendTextExternal(R.id.help_club_tracker_body, context.getString(R.string.help_club_tracker_body_1));
         }
         else if (helpClubTrackerItem == 1) {
-            swControl.sendText(R.id.help_club_tracker_body, context.getString(R.string.help_club_tracker_body_2));
+            swControl.sendTextExternal(R.id.help_club_tracker_body, context.getString(R.string.help_club_tracker_body_2));
         }
     }
 }

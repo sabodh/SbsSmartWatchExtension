@@ -15,8 +15,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="SmartExtensionAPI" />
-    <orderEntry type="module" module-name="SmartExtensionUtils" />
+    <orderEntry type="module" module-name="SmartExtensionAPI" exported="" />
+    <orderEntry type="module" module-name="SmartExtensionUtils" exported="" />
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>

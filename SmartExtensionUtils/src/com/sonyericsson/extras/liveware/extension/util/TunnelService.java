@@ -132,18 +132,26 @@ public class TunnelService extends Service implements ExtensionIntentSender {
         @Override
         public void onServiceConnected(ComponentName className,
                 IBinder service) {
-            // We've bound to LocalService, cast the IBinder and get LocalService instance
-            LocalBinder binder = (LocalBinder) service;
-            mLocalExtensionService = binder.getService();
 
-            // Enables the service to respond back with intents through
-            // the BindService.
-            mLocalExtensionService.setIntentSender(TunnelService.this);
+            try {
 
-            mBound = true;
-            Log.d(LOG_TAG, "Connected to extension service.");
 
-            handleQueuedIntentsFromHostApp();
+                // We've bound to LocalService, cast the IBinder and get LocalService instance
+                LocalBinder binder = (LocalBinder) service;
+                mLocalExtensionService = binder.getService();
+
+                // Enables the service to respond back with intents through
+                // the BindService.
+                mLocalExtensionService.setIntentSender(TunnelService.this);
+
+                mBound = true;
+                Log.d(LOG_TAG, "Connected to extension service.");
+
+                handleQueuedIntentsFromHostApp();
+            }
+            catch (Throwable throwable) {
+                throwable.printStackTrace();
+            }
         }
 
         @Override
@@ -265,7 +273,7 @@ public class TunnelService extends Service implements ExtensionIntentSender {
         Message msg = Message.obtain(null, what, 0, 0, obj);
         try {
             m.send(msg);
-            Log.v(LOG_TAG, "Forwarded intent to host app.");
+            //Log.v(LOG_TAG, "Forwarded intent to host app.");
         } catch (RemoteException e) {
             Log.e(LOG_TAG, String.format("Failed sending message."), e);
         }
