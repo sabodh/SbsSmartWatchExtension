@@ -23,7 +23,13 @@ public class SWRoundLayoutHelper {
         //Distance info
         swControl.sendTextExternal(R.id.hole_selection_button, locationObject.get("holeNum") + "");
         swControl.sendTextExternal(R.id.par_text, "PAR " + locationObject.get("par"));
-        swControl.sendTextExternal(R.id.distance_button, locationObject.get("distance") + "" + roundObject.get("measurementType"));
+
+        if (locationObject.get("distance") != null) {
+            swControl.sendTextExternal(R.id.distance_button, locationObject.get("distance") + "" + roundObject.get("measurementType"));
+        }
+        else {
+            swControl.sendTextExternal(R.id.distance_button, "--");
+        }
 
         if ((Boolean)locationObject.get("isSleeping") == true) {
             swControl.sendTextExternal(R.id.active_text, "sleeping");
@@ -61,24 +67,43 @@ public class SWRoundLayoutHelper {
         List<Map<String, Object>> scorecardMaps = (List<Map<String, Object>>)roundObject.get("scorecards");
         List<Bundle> bundles = new ArrayList<Bundle>();
 
-        for (int i = 0; i < 3; i++) {
-            if (i > scorecardMaps.size() - 1) {
-                break;
+        if (listItemPosition == 0) {
+            for (int i = 0; i < 3; i++) {
+                if (i > scorecardMaps.size() - 1) {
+                    break;
+                }
+
+                Map<String, Object> scorecardMap = scorecardMaps.get(i);
+                Bundle text1Bundle = new Bundle();
+
+                if (i == 0) {
+                    text1Bundle.putInt(Control.Intents.EXTRA_LAYOUT_REFERENCE, R.id.text_1);
+                }
+                else if (i == 1) {
+                    text1Bundle.putInt(Control.Intents.EXTRA_LAYOUT_REFERENCE, R.id.text_2);
+                }
+                else if (i == 2) {
+                    text1Bundle.putInt(Control.Intents.EXTRA_LAYOUT_REFERENCE, R.id.text_3);
+                }
+
+                if (scorecardType == SWControl.NET_SCORE) {
+                    text1Bundle.putString(Control.Intents.EXTRA_TEXT, "  " + scorecardMap.get("net") + " - " + scorecardMap.get("name"));
+                }
+                else if (scorecardType == SWControl.POINTS) {
+                    text1Bundle.putString(Control.Intents.EXTRA_TEXT, "  " + scorecardMap.get("points") + " - " + scorecardMap.get("name"));
+                }
+                else {
+                    text1Bundle.putString(Control.Intents.EXTRA_TEXT, "  " + scorecardMap.get("gross") + " - " + scorecardMap.get("name"));
+                }
+
+                bundles.add(text1Bundle);
             }
-
-            Map<String, Object> scorecardMap = scorecardMaps.get(i);
-
+        }
+        else {
+            Map<String, Object> scorecardMap = scorecardMaps.get(3);
             Bundle text1Bundle = new Bundle();
 
-            if (i == 0) {
-                text1Bundle.putInt(Control.Intents.EXTRA_LAYOUT_REFERENCE, R.id.text_1);
-            }
-            else if (i == 1) {
-                text1Bundle.putInt(Control.Intents.EXTRA_LAYOUT_REFERENCE, R.id.text_2);
-            }
-            else if (i == 2) {
-                text1Bundle.putInt(Control.Intents.EXTRA_LAYOUT_REFERENCE, R.id.text_3);
-            }
+            text1Bundle.putInt(Control.Intents.EXTRA_LAYOUT_REFERENCE, R.id.text_1);
 
             if (scorecardType == SWControl.NET_SCORE) {
                 text1Bundle.putString(Control.Intents.EXTRA_TEXT, "  " + scorecardMap.get("net") + " - " + scorecardMap.get("name"));

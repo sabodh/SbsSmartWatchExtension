@@ -82,172 +82,193 @@ public class SWControl extends ControlExtension {
     public void onResume() {
         setScreenState(Control.Intents.SCREEN_STATE_ON);
 
-        try {
-            showWaitingForRoundLayout();
-        }
-        catch (Throwable throwable) {
-            SWErrorHelper.handleError(throwable);
-        }
+        SWThreadHelper.startPromptThread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    showWaitingForRoundLayout();
+                }
+                catch (Throwable throwable) {
+                    SWErrorHelper.handleError(throwable);
+                }
+            }
+        });
     }
 
     @Override
-    public void onObjectClick(ControlObjectClickEvent event) {
-        int id = event.getLayoutReference();
+    public void onObjectClick(final ControlObjectClickEvent event) {
+        SWThreadHelper.startPromptThread(new Runnable() {
+            @Override
+            public void run() {
+                int id = event.getLayoutReference();
 
-        try {
-            if (_future != null && _future.isDone() == false) {
-                _future.cancel(true);
-            }
+                try {
+                    if (_future != null && _future.isDone() == false) {
+                        _future.cancel(true);
+                    }
 
-            if (id == R.id.waiting_for_round_button) {
-                showHelpLayout();
-            }
-            else if (id == R.id.hole_selection_button) {
-                showHoleSelectionLayout();
-            }
-            else if (id == R.id.distance_button) {
-                wakeGPS();
-            }
-            else if (id == R.id.club_tracker_button) {
-                toggleClubTracker();
-            }
-            else {
-                Log.e("SwingBySwing", ":: " + id);
-            }
-        }
-        catch (Throwable throwable) {
-            SWErrorHelper.handleError(throwable);
-        }
-    }
-
-    @Override
-    public void onSwipe(int direction) {
-        super.onSwipe(direction);
-
-        try {
-            if (_future != null && _future.isDone() == false) {
-                _future.cancel(true);
-            }
-
-            if (_currentLayout == HELP_LAYOUT) {
-                if (direction == Control.Intents.SWIPE_DIRECTION_DOWN) {
-                    deincremementHelpSubLayout();
-                }
-                else if (direction == Control.Intents.SWIPE_DIRECTION_UP) {
-                    incrementHelpSubLayout();
-                }
-            }
-            else if (_currentLayout == DISTANCE_LAYOUT) {
-                if (direction == Control.Intents.SWIPE_DIRECTION_RIGHT) {
-                    showScorecardLayout();
-                }
-                else if (direction == Control.Intents.SWIPE_DIRECTION_LEFT) {
-                    showClubTrackerLayout();
-                }
-            }
-            else if (_currentLayout == SCORECARD_LAYOUT) {
-                if (direction == Control.Intents.SWIPE_DIRECTION_RIGHT) {
-                    showClubTrackerLayout();
-                }
-                else if (direction == Control.Intents.SWIPE_DIRECTION_LEFT) {
-                    showDistanceLayout();
-                }
-            }
-            else if (_currentLayout == CLUB_TRACKER_LAYOUT) {
-                if (direction == Control.Intents.SWIPE_DIRECTION_RIGHT) {
-                    showDistanceLayout();
-                }
-                else if (direction == Control.Intents.SWIPE_DIRECTION_LEFT) {
-                    showScorecardLayout();
-                }
-            }
-        }
-        catch (Throwable throwable) {
-            SWErrorHelper.handleError(throwable);
-        }
-    }
-
-    @Override
-    public void onKey(int action, int keyCode, long timeStamp) {
-        try {
-            if (action == Control.Intents.KEY_ACTION_RELEASE && keyCode == Control.KeyCodes.KEYCODE_BACK) {
-                if (_currentLayout == HELP_LAYOUT
-                        || _currentLayout == HOLE_SELECTION_LAYOUT
-                        || _currentLayout == CLUB_SELECTION_LAYOUT
-                        || _currentLayout == SCORE_ENTRY_LAYOUT) {
-                    if (_roundObject == null || _locationObject == null) {
-                        showWaitingForRoundLayout();
+                    if (id == R.id.waiting_for_round_button) {
+                        showHelpLayout();
+                    }
+                    else if (id == R.id.hole_selection_button) {
+                        showHoleSelectionLayout();
+                    }
+                    else if (id == R.id.distance_button) {
+                        wakeGPS();
+                    }
+                    else if (id == R.id.club_tracker_button) {
+                        toggleClubTracker();
                     }
                     else {
-                        showDistanceLayout();
+                        Log.e("SwingBySwing", ":: " + id);
                     }
                 }
-                else {
-                    stopRequest();
+                catch (Throwable throwable) {
+                    SWErrorHelper.handleError(throwable);
                 }
             }
-            else if (action == Control.Intents.KEY_ACTION_RELEASE && keyCode == Control.KeyCodes.KEYCODE_OPTIONS) {
-                if (_currentLayout == DISTANCE_LAYOUT) {
-                    showDistanceMenuLayout();
+        });
+    }
+
+    @Override
+    public void onSwipe(final int direction) {
+        super.onSwipe(direction);
+
+        SWThreadHelper.startPromptThread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    if (_future != null && _future.isDone() == false) {
+                        _future.cancel(true);
+                    }
+
+                    if (_currentLayout == HELP_LAYOUT) {
+                        if (direction == Control.Intents.SWIPE_DIRECTION_DOWN) {
+                            deincremementHelpSubLayout();
+                        }
+                        else if (direction == Control.Intents.SWIPE_DIRECTION_UP) {
+                            incrementHelpSubLayout();
+                        }
+                    }
+                    else if (_currentLayout == DISTANCE_LAYOUT) {
+                        if (direction == Control.Intents.SWIPE_DIRECTION_RIGHT) {
+                            showScorecardLayout();
+                        }
+                        else if (direction == Control.Intents.SWIPE_DIRECTION_LEFT) {
+                            showClubTrackerLayout();
+                        }
+                    }
+                    else if (_currentLayout == SCORECARD_LAYOUT) {
+                        if (direction == Control.Intents.SWIPE_DIRECTION_RIGHT) {
+                            showClubTrackerLayout();
+                        }
+                        else if (direction == Control.Intents.SWIPE_DIRECTION_LEFT) {
+                            showDistanceLayout();
+                        }
+                    }
+                    else if (_currentLayout == CLUB_TRACKER_LAYOUT) {
+                        if (direction == Control.Intents.SWIPE_DIRECTION_RIGHT) {
+                            showDistanceLayout();
+                        }
+                        else if (direction == Control.Intents.SWIPE_DIRECTION_LEFT) {
+                            showScorecardLayout();
+                        }
+                    }
                 }
-                else if (_currentLayout == SCORECARD_LAYOUT) {
-                    showScorecardMenuLayout();
-                }
-                else if (_currentLayout == CLUB_TRACKER_LAYOUT) {
-                    showClubTrackerMenuLayout();
-                }
-                else {
-                    super.onKey(action, keyCode, timeStamp);
+                catch (Throwable throwable) {
+                    SWErrorHelper.handleError(throwable);
                 }
             }
-            else {
-                super.onKey(action, keyCode, timeStamp);
-            }
+        });
+    }
+
+    @Override
+    public void onKey(final int action, final int keyCode, final long timeStamp) {
+        if (action != Control.Intents.KEY_ACTION_RELEASE || (keyCode != Control.KeyCodes.KEYCODE_BACK && keyCode != Control.KeyCodes.KEYCODE_OPTIONS)) {
+            super.onKey(action, keyCode, timeStamp);
+            return;
         }
-        catch (Throwable throwable) {
-            SWErrorHelper.handleError(throwable);
+        else if (keyCode == Control.KeyCodes.KEYCODE_OPTIONS
+                && (_currentLayout != DISTANCE_LAYOUT
+                    && _currentLayout != SCORECARD_LAYOUT
+                    && _currentLayout != CLUB_TRACKER_LAYOUT)) {
+            super.onKey(action, keyCode, timeStamp);
+            return;
         }
+
+        SWThreadHelper.startPromptThread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    if (action == Control.Intents.KEY_ACTION_RELEASE && keyCode == Control.KeyCodes.KEYCODE_BACK) {
+                        if (_currentLayout == HELP_LAYOUT
+                                || _currentLayout == HOLE_SELECTION_LAYOUT
+                                || _currentLayout == CLUB_SELECTION_LAYOUT
+                                || _currentLayout == SCORE_ENTRY_LAYOUT) {
+                            if (_roundObject == null || _locationObject == null) {
+                                showWaitingForRoundLayout();
+                            }
+                            else {
+                                showDistanceLayout();
+                            }
+                        }
+                        else {
+                            stopRequest();
+                        }
+                    }
+                    else if (action == Control.Intents.KEY_ACTION_RELEASE && keyCode == Control.KeyCodes.KEYCODE_OPTIONS) {
+                        if (_currentLayout == DISTANCE_LAYOUT) {
+                            showDistanceMenuLayout();
+                        }
+                        else if (_currentLayout == SCORECARD_LAYOUT) {
+                            showScorecardMenuLayout();
+                        }
+                        else if (_currentLayout == CLUB_TRACKER_LAYOUT) {
+                            showClubTrackerMenuLayout();
+                        }
+                    }
+                }
+                catch (Throwable throwable) {
+                    SWErrorHelper.handleError(throwable);
+                }
+            }
+        });
     }
 
     @Override
     public void onRequestListItem(final int layoutReference, final int listItemPosition) {
-        try {
-            if (layoutReference == R.id.help_gallery) {
-                SWHelpLayoutHelper.requestHelpGalleryItem(listItemPosition, this);
-            }
-            else if (layoutReference == R.id.scorecard_listview) {
-                SWRoundLayoutHelper.requestScorecardListViewItem(listItemPosition, this, _roundObject, _scorecardType);
-            }
-            else if (layoutReference == R.id.club_tracker_listview) {
-                SWRoundLayoutHelper.requestClubTrackerListViewItem(listItemPosition, this, _roundObject);
-            }
-            else if (layoutReference == R.id.hole_selection_listview) {
-                SWRoundLayoutHelper.requestHoleSelectionListViewItem(listItemPosition, this, _roundObject);
-            }
-            else if (layoutReference == R.id.score_entry_listview) {
-                if (_scoreEntryArea == SWScoreEntryLayoutHelper.SCORE_AREA) {
-                    SWScoreEntryLayoutHelper.requestScoreEntryScoreListViewItem(listItemPosition, this, _roundObject);
+        SWThreadHelper.startPromptThread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    if (layoutReference == R.id.help_gallery) {
+                        SWHelpLayoutHelper.requestHelpGalleryItem(listItemPosition, SWControl.this);
+                    } else if (layoutReference == R.id.scorecard_listview) {
+                        SWRoundLayoutHelper.requestScorecardListViewItem(listItemPosition, SWControl.this, _roundObject, _scorecardType);
+                    } else if (layoutReference == R.id.club_tracker_listview) {
+                        SWRoundLayoutHelper.requestClubTrackerListViewItem(listItemPosition, SWControl.this, _roundObject);
+                    } else if (layoutReference == R.id.hole_selection_listview) {
+                        SWRoundLayoutHelper.requestHoleSelectionListViewItem(listItemPosition, SWControl.this, _roundObject);
+                    } else if (layoutReference == R.id.score_entry_listview) {
+                        if (_scoreEntryArea == SWScoreEntryLayoutHelper.SCORE_AREA) {
+                            SWScoreEntryLayoutHelper.requestScoreEntryScoreListViewItem(listItemPosition, SWControl.this, _roundObject);
+                        } else if (_scoreEntryArea == SWScoreEntryLayoutHelper.PUTTS_AREA) {
+                            SWScoreEntryLayoutHelper.requestScoreEntryPuttsListViewItem(listItemPosition, SWControl.this);
+                        } else if (_scoreEntryArea == SWScoreEntryLayoutHelper.DRIVE_RESULT_AREA) {
+                            SWScoreEntryLayoutHelper.requestScoreEntryDriveResultListViewItem(listItemPosition, SWControl.this);
+                        } else if (_scoreEntryArea == SWScoreEntryLayoutHelper.PENALTIES_AREA) {
+                            SWScoreEntryLayoutHelper.requestScoreEntryPenaltiesListViewItem(listItemPosition, SWControl.this);
+                        } else if (_scoreEntryArea == SWScoreEntryLayoutHelper.BUNKER_HIT_AREA) {
+                            SWScoreEntryLayoutHelper.requestScoreEntryBunkerHitListViewItem(listItemPosition, SWControl.this);
+                        }
+                    } else if (layoutReference == R.id.club_selection_listview) {
+                        SWRoundLayoutHelper.requestClubSelectionListViewItem(listItemPosition, SWControl.this, _roundObject);
+                    }
+                } catch (Throwable throwable) {
+                    SWErrorHelper.handleError(throwable);
                 }
-                else if (_scoreEntryArea == SWScoreEntryLayoutHelper.PUTTS_AREA) {
-                    SWScoreEntryLayoutHelper.requestScoreEntryPuttsListViewItem(listItemPosition, this);
-                }
-                else if (_scoreEntryArea == SWScoreEntryLayoutHelper.DRIVE_RESULT_AREA) {
-                    SWScoreEntryLayoutHelper.requestScoreEntryDriveResultListViewItem(listItemPosition, this);
-                }
-                else if (_scoreEntryArea == SWScoreEntryLayoutHelper.PENALTIES_AREA) {
-                    SWScoreEntryLayoutHelper.requestScoreEntryPenaltiesListViewItem(listItemPosition, this);
-                }
-                else if (_scoreEntryArea == SWScoreEntryLayoutHelper.BUNKER_HIT_AREA) {
-                    SWScoreEntryLayoutHelper.requestScoreEntryBunkerHitListViewItem(listItemPosition, this);
-                }
             }
-            else if (layoutReference == R.id.club_selection_listview) {
-                SWRoundLayoutHelper.requestClubSelectionListViewItem(listItemPosition, this, _roundObject);
-            }
-        }
-        catch (Throwable throwable) {
-            SWErrorHelper.handleError(throwable);
-        }
+        });
     }
 
     @Override
@@ -266,45 +287,43 @@ public class SWControl extends ControlExtension {
     }
 
     @Override
-    public void onListItemClick(ControlListItem listItem, int clickType, int itemLayoutReference) {
-        super.onListItemClick(listItem, clickType, itemLayoutReference);
-
-    }
-
-    @Override
-    public void onMenuItemSelected(int menuItem) {
+    public void onMenuItemSelected(final int menuItem) {
         super.onMenuItemSelected(menuItem);
 
-        try {
-            if (menuItem == VIEW_DISTANCES_MENU_ITEM) {
-                showDistanceLayout();
+        SWThreadHelper.startPromptThread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    if (menuItem == VIEW_DISTANCES_MENU_ITEM) {
+                        showDistanceLayout();
+                    }
+                    else if (menuItem == VIEW_SCORECARD_MENU_ITEM) {
+                        showScorecardLayout();
+                    }
+                    else if (menuItem == VIEW_CLUB_TRACKER_MENU_ITEM) {
+                        showClubTrackerLayout();
+                    }
+                    else if (menuItem == SHOW_GROSS_SCORE_ITEM) {
+                        _scorecardType = GROSS_SCORE;
+                        showScorecardLayout();
+                    }
+                    else if (menuItem == SHOW_NET_SCORE_MENU_ITEM) {
+                        _scorecardType = NET_SCORE;
+                        showScorecardLayout();
+                    }
+                    else if (menuItem == SHOW_POINTS_MENU_ITEM) {
+                        _scorecardType = POINTS;
+                        showScorecardLayout();
+                    }
+                    else if (menuItem == ENTER_SCORE_MENU_ITEM) {
+                        showScoreEntryLayout();
+                    }
+                }
+                catch (Throwable throwable) {
+                    SWErrorHelper.handleError(throwable);
+                }
             }
-            else if (menuItem == VIEW_SCORECARD_MENU_ITEM) {
-                showScorecardLayout();
-            }
-            else if (menuItem == VIEW_CLUB_TRACKER_MENU_ITEM) {
-                showClubTrackerLayout();
-            }
-            else if (menuItem == SHOW_GROSS_SCORE_ITEM) {
-                _scorecardType = GROSS_SCORE;
-                showScorecardLayout();
-            }
-            else if (menuItem == SHOW_NET_SCORE_MENU_ITEM) {
-                _scorecardType = NET_SCORE;
-                showScorecardLayout();
-            }
-            else if (menuItem == SHOW_POINTS_MENU_ITEM) {
-                _scorecardType = POINTS;
-                showScorecardLayout();
-            }
-            else if (menuItem == ENTER_SCORE_MENU_ITEM) {
-                showScoreEntryLayout();
-            }
-        }
-        catch (Throwable throwable) {
-            SWErrorHelper.handleError(throwable);
-        }
-
+        });
     }
 
     Future _future = null;
@@ -313,12 +332,12 @@ public class SWControl extends ControlExtension {
         final int y = event.getY();
 
         if (event.getAction() == Control.Intents.TOUCH_ACTION_RELEASE) {
-            _future = SWThreadHelper.startOnMainThread(new Runnable() {
+            _future = SWThreadHelper.startPromptThread(new Runnable() {
                 @Override
                 public void run() {
                     try {
                         int buttonHeight = 108 / 3;
-                        int selectedIndex = 0;
+                        int selectedIndex = 2;
 
                         if (y - 17 < 0) {
                             return;
@@ -376,19 +395,31 @@ public class SWControl extends ControlExtension {
 
     /** Public methods */
 
-    public void sendTextExternal(int itemLayoutReference, String text) {
-        sendText(itemLayoutReference, text);
+    public void sendTextExternal(final int itemLayoutReference, final String text) {
+        SWThreadHelper.startOnMainThread(new Runnable() {
+            @Override
+            public void run() {
+                sendText(itemLayoutReference, text);
+            }
+        });
     }
 
-    public void sendListItemExternal(ControlListItem controlListItem) {
-        sendListItem(controlListItem);
+    public void sendListItemExternal(final ControlListItem controlListItem) {
+        SWThreadHelper.startOnMainThread(new Runnable() {
+            @Override
+            public void run() {
+                sendListItem(controlListItem);
+            }
+        });
     }
 
     public Context getContext() {
         return mContext;
     }
 
-    public void updateRoundObject(Map<String, Object> roundObject) throws Throwable {
+    public void updateRoundObject(final Map<String, Object> roundObject) throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         _roundObject = roundObject;
 
         if (_currentLayout == WAITING_FOR_ROUND_LAYOUT) {
@@ -404,7 +435,7 @@ public class SWControl extends ControlExtension {
         }
 
         if (_currentLayout == DISTANCE_LAYOUT) {
-            SWRoundLayoutHelper.updateDistanceLayout(this, _roundObject, _locationObject, true);
+            SWRoundLayoutHelper.updateDistanceLayout(SWControl.this, _roundObject, _locationObject, true);
         }
         else if (_currentLayout == SCORECARD_LAYOUT) {
             showScorecardLayout();
@@ -414,7 +445,9 @@ public class SWControl extends ControlExtension {
         }
     }
 
-    public void updateLocationObject(Map<String, Object> locationObject) throws Throwable {
+    public void updateLocationObject(final Map<String, Object> locationObject) throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         boolean locationAccuracyTypeChanged = false;
         boolean shouldUpdateClubTracker = true;
 
@@ -429,7 +462,7 @@ public class SWControl extends ControlExtension {
 
         _locationObject = locationObject;
 
-        if (_roundObject == null) {
+        if (_locationObject != null && (_roundObject == null || ((Integer)_locationObject.get("holeNum")).intValue() != (Integer)_roundObject.get("holeNum"))) {
             requestRoundData();
             return;
         }
@@ -474,7 +507,7 @@ public class SWControl extends ControlExtension {
                 showDistanceLayout();
             }
             else {
-                SWRoundLayoutHelper.updateDistanceLayout(this, _roundObject, _locationObject, shouldUpdateClubTracker);
+                SWRoundLayoutHelper.updateDistanceLayout(SWControl.this, _roundObject, _locationObject, shouldUpdateClubTracker);
             }
         }
     }
@@ -482,17 +515,27 @@ public class SWControl extends ControlExtension {
     /** Private methods */
 
     private void showWaitingForRoundLayout() throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         _currentLayout = WAITING_FOR_ROUND_LAYOUT;
         _currentSubLayout = 0;
-        showLayout(R.layout.waiting_for_round_control, null);
+
+        SWThreadHelper.startOnMainThread(new Runnable() {
+            @Override
+            public void run() {
+                showLayout(R.layout.waiting_for_round_control, null);
+            }
+        });
     }
 
     private void showDistanceLayout() throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         _currentLayout = DISTANCE_LAYOUT;
         _currentSubLayout = 0;
 
-        int locationAccuracyType = (Integer)_locationObject.get("locationAccuracyType");
-        List<Bundle> bundles = new ArrayList<Bundle>();
+        final int locationAccuracyType = (Integer)_locationObject.get("locationAccuracyType");
+        final List<Bundle> bundles = new ArrayList<Bundle>();
 
         Bundle holeBundle = new Bundle();
         holeBundle.putInt(Control.Intents.EXTRA_LAYOUT_REFERENCE, R.id.hole_selection_button);
@@ -548,35 +591,64 @@ public class SWControl extends ControlExtension {
 
         bundles.add(clubTrackerBundle);
 
-        if (locationAccuracyType == SWControl.ACCURACY_GOOD) {
-            showLayout(R.layout.distance_good_control, bundles.toArray(new Bundle[bundles.size()]));
-        }
-        else if (locationAccuracyType == SWControl.ACCURACY_MEDIUM) {
-            showLayout(R.layout.distance_medium_control, bundles.toArray(new Bundle[bundles.size()]));
-        }
-        else {
-            showLayout(R.layout.distance_bad_control, bundles.toArray(new Bundle[bundles.size()]));
-        }
+        SWThreadHelper.startOnMainThread(new Runnable() {
+            @Override
+            public void run() {
+                if (locationAccuracyType == SWControl.ACCURACY_GOOD) {
+                    showLayout(R.layout.distance_good_control, bundles.toArray(new Bundle[bundles.size()]));
+                }
+                else if (locationAccuracyType == SWControl.ACCURACY_MEDIUM) {
+                    showLayout(R.layout.distance_medium_control, bundles.toArray(new Bundle[bundles.size()]));
+                }
+                else {
+                    showLayout(R.layout.distance_bad_control, bundles.toArray(new Bundle[bundles.size()]));
+                }
+            }
+        });
     }
 
     private void showScorecardLayout() throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         _currentLayout = SCORECARD_LAYOUT;
         _currentSubLayout = 0;
 
-        showLayout(R.layout.scorecard_control, null);
-        sendListCount(R.id.scorecard_listview, 1);
+        final List<Map<String, Object>> scorecardMaps = (List<Map<String, Object>>)_roundObject.get("scorecards");
+
+        SWThreadHelper.startOnMainThread(new Runnable() {
+            @Override
+            public void run() {
+                showLayout(R.layout.scorecard_control, null);
+
+                if (scorecardMaps.size() > 3) {
+                    sendListCount(R.id.scorecard_listview, 2);
+                }
+                else {
+                    sendListCount(R.id.scorecard_listview, 1);
+                }
+            }
+        });
     }
 
     private void showClubTrackerLayout() throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         _currentLayout = CLUB_TRACKER_LAYOUT;
         _currentSubLayout = 0;
 
-        showLayout(R.layout.club_tracker_control, null);
-        sendListCount(R.id.club_tracker_listview, 1);
+        SWThreadHelper.startOnMainThread(new Runnable() {
+            @Override
+            public void run() {
+                showLayout(R.layout.club_tracker_control, null);
+                sendListCount(R.id.club_tracker_listview, 1);
+            }
+        });
     }
 
     private void showDistanceMenuLayout() throws Throwable {
-        List<Bundle> bundles = new ArrayList<Bundle>();
+        SWThreadHelper.verifyBackgroundOperation();
+
+        final List<Bundle> bundles = new ArrayList<Bundle>();
 
         Bundle bundle = new Bundle();
         bundle.putInt(Control.Intents.EXTRA_MENU_ITEM_ID, VIEW_SCORECARD_MENU_ITEM);
@@ -588,11 +660,18 @@ public class SWControl extends ControlExtension {
         bundle.putString(Control.Intents.EXTRA_MENU_ITEM_TEXT, "View Tracked Shots");
         bundles.add(bundle);
 
-        showMenu(bundles.toArray(new Bundle[bundles.size()]));
+        SWThreadHelper.startOnMainThread(new Runnable() {
+            @Override
+            public void run() {
+                showMenu(bundles.toArray(new Bundle[bundles.size()]));
+            }
+        });
     }
 
     private void showScorecardMenuLayout() throws Throwable {
-        List<Bundle> bundles = new ArrayList<Bundle>();
+        SWThreadHelper.verifyBackgroundOperation();
+
+        final List<Bundle> bundles = new ArrayList<Bundle>();
 
         Bundle bundle = new Bundle();
         bundle.putInt(Control.Intents.EXTRA_MENU_ITEM_ID, VIEW_DISTANCES_MENU_ITEM);
@@ -615,11 +694,18 @@ public class SWControl extends ControlExtension {
             }
         }
 
-        showMenu(bundles.toArray(new Bundle[bundles.size()]));
+        SWThreadHelper.startOnMainThread(new Runnable() {
+            @Override
+            public void run() {
+                showMenu(bundles.toArray(new Bundle[bundles.size()]));
+            }
+        });
     }
 
     private void showClubTrackerMenuLayout() throws Throwable {
-        List<Bundle> bundles = new ArrayList<Bundle>();
+        SWThreadHelper.verifyBackgroundOperation();
+
+        final List<Bundle> bundles = new ArrayList<Bundle>();
 
         Bundle bundle = new Bundle();
         bundle.putInt(Control.Intents.EXTRA_MENU_ITEM_ID, VIEW_DISTANCES_MENU_ITEM);
@@ -631,20 +717,34 @@ public class SWControl extends ControlExtension {
         bundle.putString(Control.Intents.EXTRA_MENU_ITEM_TEXT, "View Scorecard");
         bundles.add(bundle);
 
-        showMenu(bundles.toArray(new Bundle[bundles.size()]));
+        SWThreadHelper.startOnMainThread(new Runnable() {
+            @Override
+            public void run() {
+                showMenu(bundles.toArray(new Bundle[bundles.size()]));
+            }
+        });
     }
 
     private void showHoleSelectionLayout() throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         _currentLayout = HOLE_SELECTION_LAYOUT;
         _currentSubLayout = 0;
 
-        List<Map<String, Object>> holeMaps = (List<Map<String, Object>>)_roundObject.get("holes");
+        final List<Map<String, Object>> holeMaps = (List<Map<String, Object>>)_roundObject.get("holes");
 
-        showLayout(R.layout.hole_selection_control, null);
-        sendListCount(R.id.hole_selection_listview, (int)Math.ceil(((double)holeMaps.size() + 1) / 3.0));
+        SWThreadHelper.startOnMainThread(new Runnable() {
+            @Override
+            public void run() {
+                showLayout(R.layout.hole_selection_control, null);
+                sendListCount(R.id.hole_selection_listview, (int)Math.ceil(((double)holeMaps.size() + 1) / 3.0));
+            }
+        });
     }
 
     private void showScoreEntryLayout() throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         _currentLayout = SCORE_ENTRY_LAYOUT;
         _currentSubLayout = 0;
         _scoreEntryArea = 0;
@@ -667,12 +767,18 @@ public class SWControl extends ControlExtension {
             updateScoreEntryLayout();
         }
         else {
-            showLayout(R.layout.no_score_entry_control, null);
-
+            SWThreadHelper.startOnMainThread(new Runnable() {
+                @Override
+                public void run() {
+                    showLayout(R.layout.no_score_entry_control, null);
+                }
+            });
         }
     }
 
     private void updateScoreEntryLayout() throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         final List<Map<String, Object>> scoreEntryMaps = (List<Map<String, Object>>)_scoreEntryObject.get("scores");
         final List<Map<String, Object>> scorecardMaps = (List<Map<String, Object>>)_roundObject.get("scorecards");
         Map<String, Object> scoreEntryObject = scoreEntryMaps.get(scoreEntryMaps.size() - 1);
@@ -731,14 +837,21 @@ public class SWControl extends ControlExtension {
             listPosition = 0;
         }
 
-        List<Bundle> bundles = new ArrayList<Bundle>();
+        final List<Bundle> bundles = new ArrayList<Bundle>();
         Bundle text1Bundle = new Bundle();
         text1Bundle.putInt(Control.Intents.EXTRA_LAYOUT_REFERENCE, R.id.score_entry_title);
         text1Bundle.putString(Control.Intents.EXTRA_TEXT, scorecardMap.get("name") + "");
         bundles.add(text1Bundle);
 
-        showLayout(R.layout.score_entry_control, bundles.toArray(new Bundle[bundles.size()]));
-        sendListCount(R.id.score_entry_listview, (int)Math.ceil((double)listCount / 3.0));
+        final int finalListCount = listCount;
+
+        SWThreadHelper.startOnMainThread(new Runnable() {
+            @Override
+            public void run() {
+                showLayout(R.layout.score_entry_control, bundles.toArray(new Bundle[bundles.size()]));
+                sendListCount(R.id.score_entry_listview, (int)Math.ceil((double)finalListCount / 3.0));
+            }
+        });
 
         _currentSubLayout = listPosition;
         final int finalListPosition = listPosition;
@@ -779,6 +892,8 @@ public class SWControl extends ControlExtension {
     }
 
     private void updateScoreEntryData(int listItemPosition) throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         List<Map<String, Object>> scoreEntryMaps = (List<Map<String, Object>>)_scoreEntryObject.get("scores");
         Map<String, Object> scoreEntryMap = scoreEntryMaps.get(scoreEntryMaps.size() - 1);
 
@@ -841,6 +956,8 @@ public class SWControl extends ControlExtension {
     }
 
     private void toggleClubTracker() throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         if (_locationObject.get("shotDistance") == null) {
             if ((Boolean)_roundObject.get("isLooper") == false) {
                 startShot(-1);
@@ -857,16 +974,25 @@ public class SWControl extends ControlExtension {
     }
 
     private void showClubSelectionLayout() throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         _currentLayout = CLUB_SELECTION_LAYOUT;
         _currentSubLayout = 0;
 
-        List<Map<String, Object>> clubMaps = (List<Map<String, Object>>)_roundObject.get("clubs");
+        final List<Map<String, Object>> clubMaps = (List<Map<String, Object>>)_roundObject.get("clubs");
 
-        showLayout(R.layout.club_selection_control, null);
-        sendListCount(R.id.club_selection_listview, (int)Math.ceil((double)clubMaps.size() / 3.0));
+        SWThreadHelper.startOnMainThread(new Runnable() {
+            @Override
+            public void run() {
+                showLayout(R.layout.club_selection_control, null);
+                sendListCount(R.id.club_selection_listview, (int)Math.ceil((double)clubMaps.size() / 3.0));
+            }
+        });
     }
 
     private void showHelpLayout() throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         _currentLayout = HELP_LAYOUT;
         _currentSubLayout = 0;
 
@@ -876,11 +1002,18 @@ public class SWControl extends ControlExtension {
         _helpScorecardItem = 0;
         _helpClubTrackerItem = 0;
 
-        showLayout(R.layout.help_control, null);
-        sendListCount(R.id.help_gallery, SWHelpLayoutHelper.HELP_ITEMS);
+        SWThreadHelper.startOnMainThread(new Runnable() {
+            @Override
+            public void run() {
+                showLayout(R.layout.help_control, null);
+                sendListCount(R.id.help_gallery, SWHelpLayoutHelper.HELP_ITEMS);
+            }
+        });
     }
 
     private void incrementHelpSubLayout() throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         if (_currentSubLayout == 0) { //Configuration
             if (_helpConfigItem >= SWHelpLayoutHelper.HELP_CONFIG_ITEMS - 1) {
                 return;
@@ -929,6 +1062,8 @@ public class SWControl extends ControlExtension {
     }
 
     private void deincremementHelpSubLayout() throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         if (_currentSubLayout == 0) { //Configuration
             if (_helpConfigItem <= 0) {
                 return;
@@ -977,6 +1112,8 @@ public class SWControl extends ControlExtension {
     }
 
     private void startShot(int clubId) throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         Map<String, Object> jsonMap = new HashMap<String, Object>();
 
         jsonMap.put("path", "http://api/round/start-shot?clubId=" + clubId);
@@ -997,6 +1134,8 @@ public class SWControl extends ControlExtension {
     }
 
     private void endShot() throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         Map<String, Object> jsonMap = new HashMap<String, Object>();
 
         jsonMap.put("path", "http://api/round/end-open-shot");
@@ -1017,6 +1156,8 @@ public class SWControl extends ControlExtension {
     }
 
     private void sendScoreEntry(Map<String, Object> scoreEntryMap) throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         Map<String, Object> jsonMap = new HashMap<String, Object>();
 
         jsonMap.put("path", "http://api/v1/scorecards");
@@ -1034,6 +1175,8 @@ public class SWControl extends ControlExtension {
     }
 
     private void wakeGPS() throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         Map<String, Object> jsonMap = new HashMap<String, Object>();
 
         jsonMap.put("path", "http://api/location/wake");
@@ -1051,6 +1194,8 @@ public class SWControl extends ControlExtension {
     }
 
     private void changeHole(int holeNum) throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         Map<String, Object> jsonMap = new HashMap<String, Object>();
 
         jsonMap.put("path", "http://gear/set-hole?holeNum=" + holeNum);
@@ -1068,6 +1213,8 @@ public class SWControl extends ControlExtension {
     }
 
     private void requestRoundData() throws Throwable {
+        SWThreadHelper.verifyBackgroundOperation();
+
         Map<String, Object> jsonMap = new HashMap<String, Object>();
 
         jsonMap.put("path", "http://api/v1/rounds");

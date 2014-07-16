@@ -28,11 +28,11 @@
     <list default="true" id="9a5fb65f-d36b-457b-b7af-adb5c2eed009" name="Default" comment="" />
     <ignored path="SbsSmartWatchExtension.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/AndroidManifest.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404164152390" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/res/values/com_crashlytics_export_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404179357117" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405192180285" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/res/values/com_crashlytics_export_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405007920153" ignored="false" />
     <file path="/strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403891062748" ignored="false" />
     <file path="/SmartWatchService.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404012225972" ignored="false" />
-    <file path="/a.dummy" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404273438143" ignored="false" />
+    <file path="/a.dummy" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405532941443" ignored="false" />
     <file path="/SmartWatchRegistrationInformation.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403881250972" ignored="false" />
     <file path="/SmartWatchPreferenceActivity.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403797333577" ignored="false" />
     <file path="/WaitingForRoundControl.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403798692581" ignored="false" />
@@ -63,31 +63,30 @@
     <file path="/SmartWatchTestHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404012542756" ignored="false" />
     <file path="/round_distances_bad_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404005856093" ignored="false" />
     <file path="/round_distances_good_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404005871317" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsGearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404225062090" ignored="false" />
-    <file path="/SbsGearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404225051945" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsGearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483268363" ignored="false" />
+    <file path="/SbsGearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483263222" ignored="false" />
     <file path="/RoundLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404064109898" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/RoundLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404064330123" ignored="false" />
-    <file path="/SWControl.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404323707237" ignored="false" />
-    <file path="/SWRoundLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404323342098" ignored="false" />
+    <file path="/SWControl.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405532607940" ignored="false" />
+    <file path="/SWRoundLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405533259121" ignored="false" />
     <file path="/SWHoleSelectionLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404227188842" ignored="false" />
     <file path="/SWHelpLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404164985816" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/swingbyswing/SbsSmartWatchExtension/BuildConfig.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404066453652" ignored="false" />
     <file path="/score_entry_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404068087593" ignored="false" />
     <file path="/SWScoreEntryLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404275060221" ignored="false" />
     <file path="/no_score_entry_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404075885895" ignored="false" />
     <file path="/club_selection_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404321851727" ignored="false" />
     <file path="/SWClubSelectionLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404190805309" ignored="false" />
     <file path="/SWService.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404083210395" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/SbsCommandHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404098727399" ignored="false" />
-    <file path="/SbsCommandHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404097328470" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/SbsRuntimeModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404098727399" ignored="false" />
-    <file path="/SbsRuntimeModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404097368563" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/input/SbsSmartWatchInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404225796495" ignored="false" />
-    <file path="/SbsSmartWatchInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404180683066" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsSmartWatchOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404225915382" ignored="false" />
-    <file path="/SbsSmartWatchOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404225030710" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsOutputFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404224529576" ignored="false" />
-    <file path="/SbsOutputFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404224200392" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/SbsCommandHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482990498" ignored="false" />
+    <file path="/SbsCommandHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482989205" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/SbsRuntimeModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405266805076" ignored="false" />
+    <file path="/SbsRuntimeModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405266129380" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/input/SbsSmartWatchInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483315080" ignored="false" />
+    <file path="/SbsSmartWatchInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483314131" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsSmartWatchOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405531978289" ignored="false" />
+    <file path="/SbsSmartWatchOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405531360653" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsOutputFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405013302210" ignored="false" />
+    <file path="/SbsOutputFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405013279216" ignored="false" />
     <file path="/distance_good_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404156735588" ignored="false" />
     <file path="/distance_medium_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404156744595" ignored="false" />
     <file path="/scorecard_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404324117056" ignored="false" />
@@ -95,20 +94,341 @@
     <file path="/scorecard_menu_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404158612514" ignored="false" />
     <file path="/distance_menu_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404158654739" ignored="false" />
     <file path="/club_tracker_menu_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404158696344" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/AndroidManifest.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404162055125" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/AndroidManifest.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405543342405" ignored="false" />
     <file path="/SWReceiver.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404164353723" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Facades/SbsCourseFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404166884662" ignored="false" />
     <file path="/SbsCourseFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404166883979" ignored="false" />
     <file path="/TunnelService.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404167021932" ignored="false" />
-    <file path="/SWBridgeService.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404225421394" ignored="false" />
-    <file path="/SWExtensionService.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404252330446" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/swingbyswing/SbsSmartWatchExtension/Manifest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404168281174" ignored="false" />
+    <file path="/SWBridgeService.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405532268239" ignored="false" />
+    <file path="/SWExtensionService.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405175304216" ignored="false" />
     <file path="/SWTestHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404169716191" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Facades/SbsRoundFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404180371558" ignored="false" />
-    <file path="/SbsRoundFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404180371558" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Facades/SbsScorecardFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404180396086" ignored="false" />
-    <file path="/SbsScorecardFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404180396086" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Facades/SbsRoundFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482746447" ignored="false" />
+    <file path="/SbsRoundFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482745286" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Facades/SbsScorecardFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405528487886" ignored="false" />
+    <file path="/SbsScorecardFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405526424877" ignored="false" />
     <file path="/list_item_2.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404227219584" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/model/JsonUtil.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/AccessToken.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/project.properties" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405382088930" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/TestSession.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/AccessTokenSource.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/widget/FriendPickerFragment.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/internal/NativeProtocol.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/RequestBatch.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/Settings.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/model/GraphObject.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/RequestAsyncTask.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/AuthorizationClient.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/TokenCachingStrategy.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/Session.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/widget/WebDialog.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/Request.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/Response.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/res/values/integers.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404588009187" ignored="false" />
+    <file path="/integers.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404587996016" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/SbsContentHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405457773586" ignored="false" />
+    <file path="$PROJECT_DIR$/../SbsWearExtension/src/com/swingbyswing/SbsWearExtension/helpers/SbsErrorHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404683923939" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/input/SbsWearInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482945398" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsWearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483089381" ignored="false" />
+    <file path="/SbsWearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483089381" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/project.properties" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404962733740" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/AndroidManifest.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404962733740" ignored="false" />
+    <file path="/SbsWearInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482938358" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/input/SbsGearInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482888644" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/res/values/strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405013410094" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/SbsNavigationActivity.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405526081513" ignored="false" />
+    <file path="/SbsNavigationActivity.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405526081513" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/SbsRoundSyncHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405461906657" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/SbsLocationHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405135766718" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Utility/SbsBatteryHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405133321334" ignored="false" />
+    <file path="/SbsBatteryHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405133286703" ignored="false" />
+    <file path="/SbsLocationHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405133359322" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/SbsApplication.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405264988811" ignored="false" />
+    <file path="/SbsApplication.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405264987981" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/res/xml/wearable_app_desc.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405543179086" ignored="false" />
+    <file path="/wearable_app_desc.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405192130289" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SbsS3Helper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405461857037" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/PutObjectRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385028677" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AmazonWebServiceRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405383887032" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RequestClientOptions.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405383718472" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AWSCredentials.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405383836693" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ObjectMetadata.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384151270" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ServerSideEncryptionResult.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384076605" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ObjectExpirationResult.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384111924" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ObjectRestoreResult.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384142523" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Headers.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384206360" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/CannedAccessControlList.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384299294" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AccessControlList.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384454049" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Grant.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384372012" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Grantee.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384398526" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Permission.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384435328" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ProgressListener.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384513095" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ProgressEvent.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384534485" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SSECustomerKey.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384873089" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Base64.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384639563" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Base64Codec.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384835112" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Codec.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384690609" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/CodecUtils.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384719320" ignored="false" />
+    <file path="/Base64Codec.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384832978" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/StorageClass.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384919559" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/LegacyS3ProgressListener.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384990815" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/PutObjectResult.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385066554" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SSEResultBase.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385095002" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SbsMediaS3Helper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405461879175" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AmazonClientException.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385319612" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AmazonServiceException.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385346084" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ProgressListenerCallbackExecutor.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385431733" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Mimetypes.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385669825" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Md5Utils.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385737342" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RepeatableFileInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385818887" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SdkInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385943636" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AbortedException.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385988273" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Request.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405386120107" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/LengthCheckInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405386463104" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SdkFilterInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405386448834" ignored="false" />
+    <file path="/SdkFilterInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405386448834" ignored="false" />
+    <file path="/SbsS3Helper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405440630503" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ProgressReportingInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405386584991" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Constants.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405386674357" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SDKGlobalConfiguration.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405386711718" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RepeatableInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405386799827" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/MD5DigestCalculatingInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405386832354" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/S3MetadataResponseHandler.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405399376777" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AbstractS3ResponseHandler.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405399304462" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/HttpResponseHandler.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405399427446" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AmazonWebServiceResponse.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405387105234" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ResponseMetadata.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405387139656" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/S3ResponseMetadata.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405387191783" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/DateUtils.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405387563199" ignored="false" />
+    <file path="/DateUtils.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405387518770" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ServiceUtils.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405456019315" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/StringUtils.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405387686324" ignored="false" />
+    <file path="/ServiceUtils.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405387694114" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/HttpUtils.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405387834846" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ClientConfiguration.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405398430252" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/VersionInfoUtils.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405398151268" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ClassLoaderHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405398135154" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RetryPolicy.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405398240707" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/PredefinedRetryPolicies.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405398352840" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RetryUtils.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405398339902" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Protocol.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405398480079" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/HttpClientWrappingInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405398580671" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/S3Object.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405398913481" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/S3ObjectInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405398914801" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/MetricFilterInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405398836402" ignored="false" />
+    <file path="/S3ObjectInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405398873318" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/BinaryUtils.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405398970024" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ObjectExpirationHeaderHandler.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405399177705" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/HeaderHandler.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405399282480" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/HttpResponse.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405399244151" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ObjectRestoreHeaderHandler.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405399377202" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/DefaultRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405399552203" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/BucketNameUtils.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405399634949" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Unmarshaller.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405399830912" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/S3XmlResponseHandler.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405399888802" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/S3ExecutionContext.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405440363823" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RequestHandler2.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405400180647" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Response.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405400057061" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RequestHandler.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405400170432" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/TimingInfo.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405400142285" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RequestHandler2Adaptor.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405400234099" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AmazonWebServiceClient.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405455763594" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AmazonHttpClient.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405437712261" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ResponseMetadataCache.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405400477895" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/HttpRequestFactory.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405400963350" ignored="false" />
+    <file path="/HttpRequestFactory.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405400706855" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RepeatableInputStreamRequestEntity.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405456026012" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ExecutionContext.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405437765600" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/HttpClientFactory.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405455992486" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ConnectionManagerFactory.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405433164433" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/IdleConnectionReaper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405433229388" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SdkHttpClient.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405434625376" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ClientConnectionManagerFactory.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405433497447" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ClientConnectionRequestFactory.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405433589530" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SdkHttpRequestExecutor.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405433878750" ignored="false" />
+    <file path="/SdkHttpRequestExecutor.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405433862211" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/HttpRequestNoRetryHandler.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405433985441" ignored="false" />
+    <file path="/HttpClientFactory.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405455991723" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/CredentialsRequestHandler.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405437185457" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/HttpMethodReleaseInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405437536494" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Signer.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405437737775" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AwsHostNameUtils.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405437918180" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SignerFactory.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405437957527" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/QueryStringSigner.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438538789" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AbstractAWSSigner.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438241877" ignored="false" />
+    <file path="/AbstractAWSSigner.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438043239" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SigningAlgorithm.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438113094" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SdkDigestInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438190293" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/StringInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438279564" ignored="false" />
+    <file path="/StringInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438279564" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AWSSessionCredentials.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438323935" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/BasicSessionCredentials.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438344992" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/BasicAWSCredentials.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438371084" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SignatureVersion.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438447757" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AnonymousAWSCredentials.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438473251" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AWS3Signer.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438612023" ignored="false" />
+    <file path="/AWS3Signer.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438590531" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AWS4Signer.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438775241" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ServiceAwareSigner.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438688121" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RegionAwareSigner.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438713787" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Presigner.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438740225" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/NoOpSigner.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438798642" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/InternalConfig.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405439147885" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SignerConfig.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438897599" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/HttpClientConfig.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438928207" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/InternalConfigJsonHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438957283" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SignerConfigJsonHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405438982855" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Builder.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405439004763" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/JsonIndex.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405439031367" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/HttpClientConfigJsonHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405439059342" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Jackson.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405439270197" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Region.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405439366998" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Regions.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405439391272" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RegionUtils.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405439698170" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RegionMetadataParser.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405439674311" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RegionMetadata.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405439623359" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AWSCredentialsProvider.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405439762808" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/HttpRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405439872783" ignored="false" />
+    <file path="/AmazonWebServiceClient.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405439948453" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Classes.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405440044973" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ServiceNameFactory.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405440285657" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/S3ClientOptions.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405440600646" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AmazonS3.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442905393" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ObjectListing.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405440869819" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/S3ObjectSummary.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405440907655" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/VersionListing.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441016267" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/S3VersionSummary.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405440994492" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ListVersionsRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441060976" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/Bucket.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441111839" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ListBucketsRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441140743" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/GetBucketLocationRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441167610" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/CreateBucketRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441414546" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/S3Region.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441383663" ignored="false" />
+    <file path="/S3Region.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441336814" ignored="false" />
+    <file path="/CreateBucketRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441414546" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SetBucketAclRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441472345" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/GetBucketAclRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441499430" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/GetObjectMetadataRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441528672" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/GetObjectRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441647096" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ResponseHeaderOverrides.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441612395" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/DeleteBucketRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441677677" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/CopyObjectResult.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441720771" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/CopyObjectRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441772698" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/CopyPartResult.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441810027" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/PartETag.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441834808" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/CopyPartRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441886006" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/DeleteObjectRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441920096" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/DeleteObjectsResult.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441951350" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/DeleteObjectsRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405441985490" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/MultiFactorAuthentication.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442015891" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/DeleteVersionRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442058401" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/BucketLoggingConfiguration.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442085954" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SetBucketLoggingConfigurationRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442117843" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/BucketVersioningConfiguration.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442146088" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SetBucketVersioningConfigurationRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442177507" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/BucketLifecycleConfiguration.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442222080" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SetBucketLifecycleConfigurationRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442251630" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/DeleteBucketLifecycleConfigurationRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442278212" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/GenericBucketRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442298804" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/BucketCrossOriginConfiguration.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442329158" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/CORSRule.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442363235" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SetBucketCrossOriginConfigurationRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442396724" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/DeleteBucketCrossOriginConfigurationRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442420450" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/BucketTaggingConfiguration.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442452503" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/TagSet.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442476595" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SetBucketTaggingConfigurationRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442508986" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/DeleteBucketTaggingConfigurationRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442533465" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/BucketNotificationConfiguration.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442572615" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SetBucketNotificationConfigurationRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442600842" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/BucketWebsiteConfiguration.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442716005" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RoutingRule.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442653693" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RoutingRuleCondition.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442678657" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RedirectRule.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442704185" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/GetBucketWebsiteConfigurationRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442742287" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SetBucketWebsiteConfigurationRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442769660" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/DeleteBucketWebsiteConfigurationRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442797293" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/BucketPolicy.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442820442" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/GetBucketPolicyRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442842902" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SetBucketPolicyRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442868765" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/DeleteBucketPolicyRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442891208" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/GeneratePresignedUrlRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442941656" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/InitiateMultipartUploadResult.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442964549" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/InitiateMultipartUploadRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405442994280" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/UploadPartResult.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405443023812" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/UploadPartRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405443074286" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/PartListing.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405443115290" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/PartSummary.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405443142200" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ListPartsRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405443172989" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AbortMultipartUploadRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405443197900" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/CompleteMultipartUploadResult.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405443226504" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/CompleteMultipartUploadRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405443256996" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/MultipartUploadListing.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405443296321" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/MultipartUpload.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405443331566" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ListMultipartUploadsRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405443364175" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RestoreObjectRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405443390401" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/BucketConfigurationXmlFactory.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405443862707" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/XmlWriter.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405443824644" ignored="false" />
+    <file path="/XmlWriter.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405443824644" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/S3Signer.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405454219740" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RestUtils.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405454252335" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AWSS3V4Signer.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405454495224" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AwsChunkedEncodingInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405454414722" ignored="false" />
+    <file path="/AwsChunkedEncodingInputStream.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405454409039" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ChunkContentIterator.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405454438970" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/DecodedStreamBuffer.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405454475750" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/DefaultAWSCredentialsProviderChain.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405454646971" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AWSCredentialsProviderChain.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405454696898" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SystemPropertiesCredentialsProvider.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405454747983" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ClasspathPropertiesFileCredentialsProvider.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405454786667" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/PropertiesCredentials.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405454820611" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AmazonS3Client.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405456017876" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/StaticCredentialsProvider.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405454960695" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/HandlerChainFactory.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405455063629" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/S3ErrorResponseHandler.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405455454087" ignored="false" />
+    <file path="/S3ErrorResponseHandler.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405455452343" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ListObjectsRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405455897854" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/SbsModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405528853051" ignored="false" />
+    <file path="/SbsModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405522842878" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Spring/SbsLoginSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482785600" ignored="false" />
+    <file path="/SbsLoginSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482784028" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/SbsPopupFragment.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482826375" ignored="false" />
+    <file path="/SbsPopupFragment.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482826375" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/extensions/SbsWebView.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405460415545" ignored="false" />
+    <file path="/SbsGearInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482881116" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/input/SbsWebInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482852700" ignored="false" />
+    <file path="/SbsWebInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482843870" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Facades/SbsPlayerFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483065023" ignored="false" />
+    <file path="/SbsPlayerFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483058466" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Facades/SbsActionTagFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483118001" ignored="false" />
+    <file path="/SbsActionTagFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483112355" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Spring/SbsRoundSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483141791" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Spring/SbsRoundTrackSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483175481" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsWebOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483199976" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Spring/SbsMediaSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483217772" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Spring/SbsPlayerSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483242147" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Facades/SbsClubShotFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483396258" ignored="false" />
+    <file path="/SbsClubShotFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483388669" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Facades/SbsRoundTrackFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405461473663" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Spring/SbsScorecardSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483291064" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Facades/SbsMediaFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483341944" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Spring/SbsClubShotSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483366519" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/SbsCourseHoleTeeBoxModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405471543790" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/SbsScorecardHoleModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405472488324" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Utility/SbsJsonHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405529402586" ignored="false" />
+    <file path="/SbsJsonHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405529402270" ignored="false" />
+    <file path="/SbsRoundSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483133682" ignored="false" />
+    <file path="/SbsRoundTrackSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483156417" ignored="false" />
+    <file path="/SbsWebOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483194061" ignored="false" />
+    <file path="/SbsMediaSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483212372" ignored="false" />
+    <file path="/SbsPlayerSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483236472" ignored="false" />
+    <file path="/SbsScorecardSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483283711" ignored="false" />
+    <file path="/SbsMediaFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483335594" ignored="false" />
+    <file path="/SbsClubShotSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483361213" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Utility/SbsDateHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405522703555" ignored="false" />
+    <file path="/SbsDateHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405522702632" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Utility/SbsParseHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405528837723" ignored="false" />
+    <file path="/SbsParseHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405528674247" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/gen/com/swingbyswing/BuildConfig.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405540540667" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +443,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -160,6 +479,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -175,10 +495,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../aSpork/AndroidKeyStore" />
+    <option name="KEY_ALIAS" value="swing by swing android key" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/waiting_for_round_control.xml" />
         <option value="$PROJECT_DIR$/res/layout/list_item_2.xml" />
         <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWHoleSelectionLayoutHelper.java" />
         <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWClubSelectionLayoutHelper.java" />
@@ -186,14 +510,15 @@
         <option value="$PROJECT_DIR$/res/layout/distance_bad_control.xml" />
         <option value="$PROJECT_DIR$/res/layout/distance_medium_control.xml" />
         <option value="$PROJECT_DIR$/res/layout/distance_good_control.xml" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWExtensionService.java" />
         <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWScoreEntryLayoutHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWBridgeService.java" />
         <option value="$PROJECT_DIR$/res/layout/club_selection_control.xml" />
         <option value="$PROJECT_DIR$/res/layout/scorecard_control.xml" />
         <option value="$PROJECT_DIR$/res/layout/list_item_1.xml" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWRoundLayoutHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWErrorHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWBridgeService.java" />
         <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWControl.java" />
+        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWRoundLayoutHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWExtensionService.java" />
       </list>
     </option>
   </component>
@@ -228,8 +553,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -320,65 +643,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SmartExtensionUtils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SbsSmartWatchExtension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SbsSmartWatchExtension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartExtensionUtils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SbsSmartWatchExtension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SbsSmartWatchExtension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartExtensionUtils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SbsSmartWatchExtension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SbsSmartWatchExtension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,43 +662,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SbsSmartWatchExtension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SbsSmartWatchExtension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SbsSmartWatchExtension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SbsSmartWatchExtension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -441,19 +676,22 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="ExportedApkPath" value="$PROJECT_DIR$/SbsSmartWatchExtension.apk" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/jackson-databind-2.3.2.jar!/" />
+    <property name="ExportedModule" value="SbsSmartWatchExtension" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aSpork/AndroidKeyStore" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="0149B2871401400C" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AndroidWearRound" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_3_7in_WVGA_Nexus_One" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
   </component>
   <component name="RecentsManager">
@@ -494,19 +732,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -533,6 +758,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -628,7 +866,6 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32953104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -639,7 +876,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.40528634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -647,12 +884,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24968314" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24968314" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32953104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -722,163 +960,133 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/score_entry_control.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/scorecard_control.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1189" vertical-scroll-proportion="0.0">
+        <state line="19" column="35" selection-start="884" selection-end="884" vertical-scroll-proportion="0.3442029" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWErrorHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="37" selection-start="725" selection-end="725" vertical-scroll-proportion="0.35795453">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/distance_bad_control.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/res/values/color.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="39" selection-start="1968" selection-end="1968" vertical-scroll-proportion="0.5072464">
+        <state line="8" column="51" selection-start="177" selection-end="391" vertical-scroll-proportion="0.14035088">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/distance_medium_control.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/activities/SWPreferenceActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="39" selection-start="1968" selection-end="1968" vertical-scroll-proportion="0.84903383">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/distance_good_control.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="39" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.26932368">
+        <state line="41" column="0" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.35227272">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="71" selection-start="448" selection-end="448" vertical-scroll-proportion="0.2215909">
+        <state line="13" column="13" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWRegistrationInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="5" selection-start="984" selection-end="984" vertical-scroll-proportion="-0.09090909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="50" selection-start="525" selection-end="525" vertical-scroll-proportion="0.20454545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="132" selection-start="2750" selection-end="2838" vertical-scroll-proportion="0.49122807">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWTestHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="61" selection-start="4975" selection-end="4975" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWHelpLayoutHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWExtensionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="2092" selection-end="2092" vertical-scroll-proportion="0.6306818">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartExtensionAPI/src/com/sonyericsson/extras/liveware/aef/control/Control.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1545" column="25" selection-start="64301" selection-end="64301" vertical-scroll-proportion="0.16032295">
+        <state line="67" column="0" selection-start="3226" selection-end="3226" vertical-scroll-proportion="-0.36363637">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWBridgeService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWThreadHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="9" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0">
+        <state line="28" column="4" selection-start="884" selection-end="907" vertical-scroll-proportion="0.20454545">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWScoreEntryLayoutHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1696#1704#0" expanded="true" />
-            <element signature="e#3409#3417#0" expanded="true" />
-            <element signature="e#4885#4893#0" expanded="true" />
-            <element signature="e#6313#6321#0" expanded="true" />
-            <element signature="e#7627#7635#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/hole_selection_control.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="40" selection-end="1203" vertical-scroll-proportion="0.036231883">
+        <state line="34" column="4" selection-start="1156" selection-end="1184" vertical-scroll-proportion="0.017045455">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/club_selection_control.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="905" selection-end="905" vertical-scroll-proportion="0.38043478">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/list_item_1.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="50" selection-start="280" selection-end="280" vertical-scroll-proportion="-1.4423077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/scorecard_control.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="884" selection-end="884" vertical-scroll-proportion="0.3442029">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWRoundLayoutHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="67" selection-start="1348" selection-end="1357" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2775#2783#0" expanded="true" />
-            <element signature="e#4820#4828#0" expanded="true" />
-            <element signature="e#6446#6454#0" expanded="true" />
-            <element signature="e#8481#8489#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="517" column="14" selection-start="19386" selection-end="19386" vertical-scroll-proportion="0.36842105">
+        <state line="614" column="0" selection-start="24624" selection-end="24624" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#11901#13837#0" expanded="true" />
-            <element signature="e#13822#13823#0" expanded="true" />
-            <element signature="e#21731#21739#0" expanded="true" />
-            <element signature="e#22390#22398#0" expanded="true" />
-            <element signature="e#23549#23557#0" expanded="true" />
-            <element signature="e#28198#28206#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#21349#21357#0" expanded="true" />
+            <element signature="e#25809#25817#0" expanded="true" />
+            <element signature="e#26673#26681#0" expanded="true" />
+            <element signature="e#28037#28045#0" expanded="true" />
+            <element signature="e#30001#30022#0" expanded="true" />
+            <element signature="e#30088#30104#0" expanded="true" />
+            <element signature="e#33322#33330#0" expanded="true" />
+            <element signature="e#43239#43255#0" expanded="true" />
+            <element signature="e#44001#44017#0" expanded="true" />
+            <element signature="e#44785#44801#0" expanded="true" />
+            <element signature="e#45446#45462#0" expanded="true" />
+            <element signature="e#46111#46127#0" expanded="true" />
+            <element signature="e#46786#46802#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWBridgeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="3327" selection-end="3327" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWExtensionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="0" selection-start="2617" selection-end="2617" vertical-scroll-proportion="0.4034091">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWRoundLayoutHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="50" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.31141868">
+          <folding />
         </state>
       </provider>
     </entry>

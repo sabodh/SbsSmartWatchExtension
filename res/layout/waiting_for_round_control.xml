@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="@dimen/smart_watch_2_control_width"
+                android:layout_height="@dimen/smart_watch_2_control_height"
+                tools:ignore="PxUsage,UselessParent,HardcodedText" >
+
+    <TextView
+            android:id="@+id/waiting_for_round_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="Waiting for a round..."
+            android:textColor="@color/white" />
+
+    <Button
+            android:id="@+id/waiting_for_round_button"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/waiting_for_round_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:text="HELP"
+            android:textColor="@color/white"
+            android:background="@color/dark_green_background" />
+</RelativeLayout>

@@ -3,12 +3,15 @@ package com.swingbyswing.SbsSmartWatchExtension;
 import android.content.Intent;
 import android.os.*;
 import android.util.Log;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import com.sonyericsson.extras.liveware.extension.util.ExtensionService;
 import com.sonyericsson.extras.liveware.extension.util.control.ControlExtension;
 import com.sonyericsson.extras.liveware.extension.util.registration.DeviceInfoHelper;
 import com.sonyericsson.extras.liveware.extension.util.registration.RegistrationInformation;
 import com.swingbyswing.SbsSmartWatchExtension.helpers.SWErrorHelper;
+import com.swingbyswing.SbsSmartWatchExtension.helpers.SWThreadHelper;
 
 import java.lang.ref.WeakReference;
 import java.util.Map;
@@ -63,33 +66,40 @@ public class SWExtensionService extends ExtensionService {
     }
 
     @Override
-    protected void handleIntent(Intent intent) {
+    protected void handleIntent(final Intent intent) {
         super.handleIntent(intent);
 
-        try {
-            if ("handle_message".equalsIgnoreCase(intent.getAction())) {
-                if (_controlExtension == null) {
-                    return;
+        SWThreadHelper.startPromptThread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    if ("handle_message".equalsIgnoreCase(intent.getAction())) {
+                        if (_controlExtension == null) {
+                            return;
+                        }
+
+                        String jsonString = intent.getStringExtra("json_string");
+
+                        ObjectMapper mapper = new ObjectMapper();
+                        mapper.configure(SerializationFeature.WRITE_NULL_MAP_VALUES, false);
+                        mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
+                        Map<String, Object> jsonObject = mapper.readValue(jsonString, Map.class);
+
+                        String path = (String)jsonObject.get("path");
+
+                        if ("http://smartwatch/round".equalsIgnoreCase(path)) {
+                            _controlExtension.updateRoundObject((Map<String, Object>)jsonObject.get("data"));
+                        }
+                        else if ("http://smartwatch/location".equalsIgnoreCase(path)) {
+                            _controlExtension.updateLocationObject((Map<String, Object>)jsonObject.get("data"));
+                        }
+                    }
                 }
-
-                String jsonString = intent.getStringExtra("json_string");
-
-                ObjectMapper mapper = new ObjectMapper();
-                Map<String, Object> jsonObject = mapper.readValue(jsonString, Map.class);
-
-                String path = (String)jsonObject.get("path");
-
-                if ("http://smartwatch/round".equalsIgnoreCase(path)) {
-                    _controlExtension.updateRoundObject((Map<String, Object>)jsonObject.get("data"));
-                }
-                else if ("http://smartwatch/location".equalsIgnoreCase(path)) {
-                    _controlExtension.updateLocationObject((Map<String, Object>)jsonObject.get("data"));
+                catch (Throwable throwable) {
+                    SWErrorHelper.handleError(throwable);
                 }
             }
-        }
-        catch (Throwable throwable) {
-            SWErrorHelper.handleError(throwable);
-        }
+        });
     }
 
     /** Private methods */
