@@ -8,6 +8,7 @@
               android:targetSdkVersion="18" />
 
     <uses-permission android:name="com.sonyericsson.extras.liveware.aef.EXTENSION_PERMISSION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application android:icon="@drawable/icon"
                  android:label="@string/app_name">
@@ -73,5 +74,7 @@
                 <action android:name="com.sonyericsson.extras.aef.control.MENU_SHOW" />
             </intent-filter>
         </receiver>
+
+        <meta-data android:name="com.crashlytics.ApiKey" android:value="0822e25b15d39afd56b7869bb6bfb8a4e3104350"/>
     </application>
 </manifest>

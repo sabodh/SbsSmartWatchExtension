@@ -24,30 +24,33 @@
       </GlobalState>
     </option>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="swingbyswing" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9a5fb65f-d36b-457b-b7af-adb5c2eed009" name="Default" comment="" />
     <ignored path="SbsSmartWatchExtension.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/AndroidManifest.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405192180285" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/res/values/com_crashlytics_export_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405007920153" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/res/values/com_crashlytics_export_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405828956905" ignored="false" />
     <file path="/strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403891062748" ignored="false" />
     <file path="/SmartWatchService.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404012225972" ignored="false" />
-    <file path="/a.dummy" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405532941443" ignored="false" />
+    <file path="/a.dummy" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831597204" ignored="false" />
     <file path="/SmartWatchRegistrationInformation.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403881250972" ignored="false" />
     <file path="/SmartWatchPreferenceActivity.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403797333577" ignored="false" />
     <file path="/WaitingForRoundControl.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403798692581" ignored="false" />
     <file path="/Dummy.txt" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404321825049" ignored="false" />
     <file path="/fragment.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403806531851" ignored="false" />
-    <file path="/waiting_for_round_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404181808958" ignored="false" />
+    <file path="/waiting_for_round_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831514468" ignored="false" />
     <file path="/colors.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403813639658" ignored="false" />
     <file path="/SmartWatchReceiver.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403930024622" ignored="false" />
     <file path="/SmartWatchControl.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404060768245" ignored="false" />
     <file path="/help_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404165915714" ignored="false" />
-    <file path="/help_config_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403888717729" ignored="false" />
-    <file path="/help_getting_started_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403889020989" ignored="false" />
-    <file path="/help_distances_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403889010962" ignored="false" />
-    <file path="/help_club_tracker_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403889001028" ignored="false" />
-    <file path="/help_scorecard_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403889031281" ignored="false" />
+    <file path="/help_config_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831860320" ignored="false" />
+    <file path="/help_getting_started_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831890849" ignored="false" />
+    <file path="/help_distances_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831877181" ignored="false" />
+    <file path="/help_club_tracker_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831847358" ignored="false" />
+    <file path="/help_scorecard_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831904371" ignored="false" />
     <file path="/round_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403893286091" ignored="false" />
     <file path="/round_scorecard_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403901446072" ignored="false" />
     <file path="/round_distances_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403903526781" ignored="false" />
@@ -56,45 +59,45 @@
     <file path="/round_options_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403913654764" ignored="false" />
     <file path="/SmartWatchErrorHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403902171637" ignored="false" />
     <file path="/SmartWatchThreadHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403902206658" ignored="false" />
-    <file path="/hole_selection_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404250213569" ignored="false" />
+    <file path="/hole_selection_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831423027" ignored="false" />
     <file path="/hole_selection_score_entry_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403924443415" ignored="false" />
     <file path="/hole_selection_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1403931731889" ignored="false" />
-    <file path="/list_item_1.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404324084620" ignored="false" />
+    <file path="/list_item_1.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831656089" ignored="false" />
     <file path="/SmartWatchTestHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404012542756" ignored="false" />
     <file path="/round_distances_bad_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404005856093" ignored="false" />
     <file path="/round_distances_good_item.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404005871317" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsGearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483268363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsGearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405608605039" ignored="false" />
     <file path="/SbsGearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483263222" ignored="false" />
     <file path="/RoundLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404064109898" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/RoundLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404064330123" ignored="false" />
-    <file path="/SWControl.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405532607940" ignored="false" />
+    <file path="/SWControl.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405832528065" ignored="false" />
     <file path="/SWRoundLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405533259121" ignored="false" />
     <file path="/SWHoleSelectionLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404227188842" ignored="false" />
-    <file path="/SWHelpLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404164985816" ignored="false" />
-    <file path="/score_entry_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404068087593" ignored="false" />
+    <file path="/SWHelpLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405832321219" ignored="false" />
+    <file path="/score_entry_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831478978" ignored="false" />
     <file path="/SWScoreEntryLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404275060221" ignored="false" />
-    <file path="/no_score_entry_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404075885895" ignored="false" />
-    <file path="/club_selection_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404321851727" ignored="false" />
+    <file path="/no_score_entry_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831463954" ignored="false" />
+    <file path="/club_selection_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831370672" ignored="false" />
     <file path="/SWClubSelectionLayoutHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404190805309" ignored="false" />
     <file path="/SWService.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404083210395" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/SbsCommandHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482990498" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/SbsCommandHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405607170183" ignored="false" />
     <file path="/SbsCommandHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482989205" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/SbsRuntimeModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405266805076" ignored="false" />
     <file path="/SbsRuntimeModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405266129380" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/input/SbsSmartWatchInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483315080" ignored="false" />
     <file path="/SbsSmartWatchInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483314131" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsSmartWatchOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405531978289" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsSmartWatchOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405608591908" ignored="false" />
     <file path="/SbsSmartWatchOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405531360653" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsOutputFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405013302210" ignored="false" />
     <file path="/SbsOutputFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405013279216" ignored="false" />
-    <file path="/distance_good_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404156735588" ignored="false" />
-    <file path="/distance_medium_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404156744595" ignored="false" />
-    <file path="/scorecard_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404324117056" ignored="false" />
-    <file path="/club_tracker_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404157441815" ignored="false" />
+    <file path="/distance_good_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831200873" ignored="false" />
+    <file path="/distance_medium_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831173965" ignored="false" />
+    <file path="/scorecard_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831486497" ignored="false" />
+    <file path="/club_tracker_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831400601" ignored="false" />
     <file path="/scorecard_menu_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404158612514" ignored="false" />
     <file path="/distance_menu_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404158654739" ignored="false" />
     <file path="/club_tracker_menu_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404158696344" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/AndroidManifest.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405543342405" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/AndroidManifest.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
     <file path="/SWReceiver.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404164353723" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Facades/SbsCourseFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404166884662" ignored="false" />
     <file path="/SbsCourseFacade.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404166883979" ignored="false" />
@@ -109,7 +112,7 @@
     <file path="/list_item_2.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404227219584" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/model/JsonUtil.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/AccessToken.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/project.properties" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405382088930" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/project.properties" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405693863019" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/TestSession.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/AccessTokenSource.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/facebook/src/com/facebook/widget/FriendPickerFragment.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404536665730" ignored="false" />
@@ -129,25 +132,25 @@
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/SbsContentHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405457773586" ignored="false" />
     <file path="$PROJECT_DIR$/../SbsWearExtension/src/com/swingbyswing/SbsWearExtension/helpers/SbsErrorHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404683923939" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/input/SbsWearInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482945398" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsWearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483089381" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/output/SbsWearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405608561259" ignored="false" />
     <file path="/SbsWearOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483089381" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/project.properties" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404962733740" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/AndroidManifest.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1404962733740" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/AndroidManifest.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
     <file path="/SbsWearInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482938358" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/input/SbsGearInputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482888644" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/res/values/strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405013410094" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/SbsNavigationActivity.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405526081513" ignored="false" />
-    <file path="/SbsNavigationActivity.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405526081513" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/SbsRoundSyncHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405461906657" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/SbsLocationHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405135766718" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/SbsNavigationActivity.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405653932860" ignored="false" />
+    <file path="/SbsNavigationActivity.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405653702691" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/SbsRoundSyncHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405696031275" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/helpers/SbsLocationHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405631028898" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Utility/SbsBatteryHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405133321334" ignored="false" />
     <file path="/SbsBatteryHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405133286703" ignored="false" />
     <file path="/SbsLocationHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405133359322" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/SbsApplication.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405264988811" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/SbsApplication.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405631060562" ignored="false" />
     <file path="/SbsApplication.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405264987981" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/res/xml/wearable_app_desc.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405543179086" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/res/xml/wearable_app_desc.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405613135026" ignored="false" />
     <file path="/wearable_app_desc.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405192130289" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SbsS3Helper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405461857037" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SbsS3Helper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405696036898" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/PutObjectRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385028677" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AmazonWebServiceRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405383887032" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/RequestClientOptions.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405383718472" ignored="false" />
@@ -174,7 +177,7 @@
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/LegacyS3ProgressListener.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405384990815" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/PutObjectResult.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385066554" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SSEResultBase.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385095002" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SbsMediaS3Helper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405461879175" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/SbsMediaS3Helper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405696041237" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AmazonClientException.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385319612" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/AmazonServiceException.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385346084" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ProgressListenerCallbackExecutor.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405385431733" ignored="false" />
@@ -387,8 +390,8 @@
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/S3ErrorResponseHandler.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405455454087" ignored="false" />
     <file path="/S3ErrorResponseHandler.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405455452343" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/S3/ListObjectsRequest.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405455897854" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/SbsModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405528853051" ignored="false" />
-    <file path="/SbsModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405522842878" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/SbsModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405653253928" ignored="false" />
+    <file path="/SbsModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405653246693" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Spring/SbsLoginSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482785600" ignored="false" />
     <file path="/SbsLoginSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482784028" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/activities/SbsPopupFragment.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405482826375" ignored="false" />
@@ -414,8 +417,8 @@
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Spring/SbsClubShotSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483366519" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/SbsCourseHoleTeeBoxModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405471543790" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/SbsScorecardHoleModel.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405472488324" ignored="false" />
-    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Utility/SbsJsonHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405529402586" ignored="false" />
-    <file path="/SbsJsonHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405529402270" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Utility/SbsJsonHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405696155087" ignored="false" />
+    <file path="/SbsJsonHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405652618344" ignored="false" />
     <file path="/SbsRoundSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483133682" ignored="false" />
     <file path="/SbsRoundTrackSpringHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483156417" ignored="false" />
     <file path="/SbsWebOutputHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405483194061" ignored="false" />
@@ -429,6 +432,130 @@
     <file path="$PROJECT_DIR$/../aSpork/src/com/swingbyswing/models/helpers/Utility/SbsParseHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405528837723" ignored="false" />
     <file path="/SbsParseHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405528674247" ignored="false" />
     <file path="$PROJECT_DIR$/../aSpork/gen/com/swingbyswing/BuildConfig.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405540540667" ignored="false" />
+    <file path="/SbsRoundSyncHelper.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405607244860" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/swingbyswing/SbsSmartWatchExtension/BuildConfig.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405610698482" ignored="false" />
+    <file path="$PROJECT_DIR$/SmartExtensionUtils/gen/com/sonyericsson/extras/liveware/extension/util/BuildConfig.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405610236081" ignored="false" />
+    <file path="$PROJECT_DIR$/SmartExtensionAPI/gen/com/sonyericsson/extras/liveware/sdk/BuildConfig.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405610236081" ignored="false" />
+    <file path="/project.properties" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405611150071" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/proguard-swingbyswing.txt" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405694581010" ignored="false" />
+    <file path="/proguard-swingbyswing.txt" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405693059291" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/module_sbsandroid.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405693447938" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/PebbleKit/module_pebblekit.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405693447938" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/aspork.properties" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405693447938" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/aspork.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405693447938" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/facebook/module_facebook.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405693447938" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/gen/com/google/android/gms/BuildConfig.java" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405694059256" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-es/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-el/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-de/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-da/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-cs/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-ca/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-bg/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-be/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-ar/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-en-rGB/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-en-rIN/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-es-rUS/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-et-rEE/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-fr-rCA/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-hy-rAM/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-ka-rGE/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-km-rKH/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-lo-rLA/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-mn-rMN/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273363" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-ms-rMY/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-pt-rBR/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-pt-rPT/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-zh-rCN/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-zh-rHK/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-zh-rTW/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-zh-rTW/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-be/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-zh-rHK/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-bg/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-zh-rCN/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-ca/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-pt-rPT/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-cs/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-pt-rBR/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-da/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-ms-rMY/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-de/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-mn-rMN/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-el/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-lo-rLA/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-es/wallet_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-km-rKH/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-fa/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-ka-rGE/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-fi/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-hy-rAM/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-fr/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-fr-rCA/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-hi/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-et-rEE/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-hr/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-es-rUS/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-hu/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-en-rIN/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-in/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-en-rGB/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-it/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-iw/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-ja/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-ko/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-lt/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-zu/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-lv/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-vi/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-nb/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-uk/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273364" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-nl/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-tr/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-pl/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-tl/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-pt/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-th/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-ro/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-sw/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-ru/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-sv/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-sk/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-sl/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-sr/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-sr/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-sl/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-sv/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-sk/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-sw/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-ru/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-th/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-ro/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-tl/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-pt/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-tr/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-pl/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-uk/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-nl/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-vi/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-nb/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-lv/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-zu/auth_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-lt/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-ko/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-ja/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-iw/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-it/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-in/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-hu/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-hr/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-hi/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-fr/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-fi/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-fa/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="$PROJECT_DIR$/../aSpork/google-play-services_lib/res/values-es/common_strings.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405807273365" ignored="false" />
+    <file path="/distance_bad_control.xml" changelist="9a5fb65f-d36b-457b-b7af-adb5c2eed009" time="1405831213038" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -443,6 +570,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -479,7 +607,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -488,7 +615,20 @@
     <favorites_list name="SbsSmartWatchExtension" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="SWControl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWControl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="132" column="33" selection-start="4790" selection-end="4790" vertical-scroll-proportion="0.03508772">
+              <folding>
+                <element signature="e#16663#16810#0" expanded="true" />
+                <element signature="e#16799#16800#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -503,22 +643,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/list_item_2.xml" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWHoleSelectionLayoutHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWClubSelectionLayoutHelper.java" />
         <option value="$PROJECT_DIR$/res/layout/hole_selection_control.xml" />
-        <option value="$PROJECT_DIR$/res/layout/distance_bad_control.xml" />
-        <option value="$PROJECT_DIR$/res/layout/distance_medium_control.xml" />
-        <option value="$PROJECT_DIR$/res/layout/distance_good_control.xml" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWScoreEntryLayoutHelper.java" />
-        <option value="$PROJECT_DIR$/res/layout/club_selection_control.xml" />
+        <option value="$PROJECT_DIR$/res/layout/no_score_entry_control.xml" />
+        <option value="$PROJECT_DIR$/res/layout/score_entry_control.xml" />
         <option value="$PROJECT_DIR$/res/layout/scorecard_control.xml" />
+        <option value="$PROJECT_DIR$/res/layout/waiting_for_round_control.xml" />
+        <option value="$PROJECT_DIR$/res/layout/club_selection_control.xml" />
+        <option value="$PROJECT_DIR$/res/layout/club_tracker_control.xml" />
         <option value="$PROJECT_DIR$/res/layout/list_item_1.xml" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWErrorHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWBridgeService.java" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWControl.java" />
         <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWRoundLayoutHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWExtensionService.java" />
+        <option value="$PROJECT_DIR$/res/layout/help_club_tracker_item.xml" />
+        <option value="$PROJECT_DIR$/res/layout/help_config_item.xml" />
+        <option value="$PROJECT_DIR$/res/layout/help_distances_item.xml" />
+        <option value="$PROJECT_DIR$/res/layout/help_getting_started_item.xml" />
+        <option value="$PROJECT_DIR$/res/layout/help_scorecard_item.xml" />
+        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWHelpLayoutHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWControl.java" />
       </list>
     </option>
   </component>
@@ -665,6 +805,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SbsSmartWatchExtension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SbsSmartWatchExtension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SbsSmartWatchExtension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SbsSmartWatchExtension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -683,15 +855,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aSpork/AndroidKeyStore" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="0149B2871401400C" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="434a492f" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_3_7in_WVGA_Nexus_One" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
   </component>
   <component name="RecentsManager">
@@ -732,6 +904,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -758,19 +943,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -860,12 +1032,33 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1624" height="1028" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32953104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -879,18 +1072,17 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.40528634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32929516" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24968314" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24968314" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32953104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -960,133 +1152,154 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/res/layout/waiting_for_round_control.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="47" selection-start="871" selection-end="871" vertical-scroll-proportion="0.32608697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/club_tracker_control.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="48" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.45289856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/club_selection_control.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="50" selection-start="462" selection-end="462" vertical-scroll-proportion="0.16304348">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/scorecard_control.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="884" selection-end="884" vertical-scroll-proportion="0.3442029" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWErrorHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="37" selection-start="725" selection-end="725" vertical-scroll-proportion="0.35795453">
+        <state line="9" column="13" selection-start="452" selection-end="452" vertical-scroll-proportion="-2.5961537">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/color.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/no_score_entry_control.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="51" selection-start="177" selection-end="391" vertical-scroll-proportion="0.14035088">
+        <state line="18" column="0" selection-start="825" selection-end="825" vertical-scroll-proportion="-5.1923075">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/activities/SWPreferenceActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/list_item_1.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.35227272">
+        <state line="41" column="36" selection-start="1624" selection-end="1624" vertical-scroll-proportion="-11.826923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWReceiver.java">
+    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWRoundLayoutHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+        <state line="246" column="65" selection-start="10495" selection-end="10495" vertical-scroll-proportion="3.2145329">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWRegistrationInformation.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/help_club_tracker_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="984" selection-end="984" vertical-scroll-proportion="-0.09090909">
+        <state line="34" column="38" selection-start="1635" selection-end="1635" vertical-scroll-proportion="-9.807693">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/help_control.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="50" selection-start="525" selection-end="525" vertical-scroll-proportion="0.20454545">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/help_distances_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="132" selection-start="2750" selection-end="2838" vertical-scroll-proportion="0.49122807">
+        <state line="34" column="38" selection-start="1629" selection-end="1629" vertical-scroll-proportion="0.615942">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWTestHelper.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/help_getting_started_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="61" selection-start="4975" selection-end="4975" vertical-scroll-proportion="0.0">
+        <state line="34" column="38" selection-start="1641" selection-end="1641" vertical-scroll-proportion="0.615942">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/help_scorecard_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="38" selection-start="1629" selection-end="1629" vertical-scroll-proportion="0.615942">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWHelpLayoutHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="3226" selection-end="3226" vertical-scroll-proportion="-0.36363637">
+        <state line="74" column="34" selection-start="3476" selection-end="3476" vertical-scroll-proportion="0.4943182">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWThreadHelper.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/help_config_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="4" selection-start="884" selection-end="907" vertical-scroll-proportion="0.20454545">
+        <state line="34" column="38" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.615942">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWScoreEntryLayoutHelper.java">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="4" selection-start="1156" selection-end="1184" vertical-scroll-proportion="0.017045455">
+        <state line="29" column="12" selection-start="2860" selection-end="2860" vertical-scroll-proportion="0.50877196">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="614" column="0" selection-start="24624" selection-end="24624" vertical-scroll-proportion="0.0">
+        <state line="132" column="33" selection-start="4790" selection-end="4790" vertical-scroll-proportion="0.03508772">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#21349#21357#0" expanded="true" />
-            <element signature="e#25809#25817#0" expanded="true" />
-            <element signature="e#26673#26681#0" expanded="true" />
-            <element signature="e#28037#28045#0" expanded="true" />
-            <element signature="e#30001#30022#0" expanded="true" />
-            <element signature="e#30088#30104#0" expanded="true" />
-            <element signature="e#33322#33330#0" expanded="true" />
-            <element signature="e#43239#43255#0" expanded="true" />
-            <element signature="e#44001#44017#0" expanded="true" />
-            <element signature="e#44785#44801#0" expanded="true" />
-            <element signature="e#45446#45462#0" expanded="true" />
-            <element signature="e#46111#46127#0" expanded="true" />
-            <element signature="e#46786#46802#0" expanded="true" />
+            <element signature="e#16663#16810#0" expanded="true" />
+            <element signature="e#16799#16800#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWBridgeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="3327" selection-end="3327" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/SWExtensionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="2617" selection-end="2617" vertical-scroll-proportion="0.4034091">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swingbyswing/SbsSmartWatchExtension/helpers/SWRoundLayoutHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="50" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.31141868">
-          <folding />
         </state>
       </provider>
     </entry>

@@ -16,23 +16,23 @@
                   android:background="@color/dark_green_background">
         <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="19dp"
+                android:layout_height="25px"
                 android:text="@string/help_getting_started_title"
                 android:textColor="@color/white"
-                android:textSize="12dp" />
+                android:textSize="@dimen/smart_watch_2_text_size_large" />
     </LinearLayout>
 
     <LinearLayout android:layout_width="fill_parent"
                   android:layout_height="wrap_content"
                   android:layout_weight="3"
-                  android:layout_margin="3dp">
+                  android:layout_margin="3px">
         <TextView
                 android:id="@+id/help_getting_started_body"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/help_config_body_1"
                 android:textColor="@color/white"
-                android:textSize="10dp" />
+                android:textSize="22px" />
     </LinearLayout>
 
 </LinearLayout>

@@ -11,18 +11,22 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
+            android:layout_marginTop="30px"
+            android:layout_marginBottom="20px"
             android:gravity="center"
             android:text="Waiting for a round..."
+            android:textSize="22px"
             android:textColor="@color/white" />
 
     <Button
             android:id="@+id/waiting_for_round_button"
             android:layout_width="wrap_content"
-            android:layout_height="30dp"
+            android:layout_height="50px"
             android:layout_below="@id/waiting_for_round_text"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15px"
             android:textAlignment="center"
+            android:textSize="30px"
             android:text="HELP"
             android:textColor="@color/white"
             android:background="@color/dark_green_background" />

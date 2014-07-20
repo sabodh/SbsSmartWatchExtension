@@ -3,6 +3,7 @@ package com.swingbyswing.SbsSmartWatchExtension;
 import android.content.Intent;
 import android.os.*;
 import android.util.Log;
+import com.crashlytics.android.Crashlytics;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -35,6 +36,8 @@ public class SWExtensionService extends ExtensionService {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        Crashlytics.start(this);
     }
 
     @Override

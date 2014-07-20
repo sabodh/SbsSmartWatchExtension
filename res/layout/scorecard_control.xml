@@ -10,14 +10,14 @@
     <TextView
             android:id="@+id/scorecard_title"
             android:layout_width="fill_parent"
-            android:layout_height="17dp"
+            android:layout_height="25px"
             android:layout_alignParentTop="true"
-            android:paddingTop="0dp"
-            android:paddingBottom="3dp"
+            android:paddingTop="0px"
+            android:paddingBottom="3px"
             android:text="SCORECARD"
             android:gravity="center"
             android:background="@color/dark_green_background"
-            android:textSize="12dp"
+            android:textSize="@dimen/smart_watch_2_text_size_large"
             />
 
     <ListView

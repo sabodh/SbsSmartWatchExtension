@@ -16,10 +16,7 @@ import com.sonyericsson.extras.liveware.extension.util.control.ControlObjectClic
 import com.sonyericsson.extras.liveware.extension.util.control.ControlTouchEvent;
 import com.swingbyswing.SbsSmartWatchExtension.helpers.*;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.Future;
 
 /**
@@ -70,6 +67,7 @@ public class SWControl extends ControlExtension {
     private int _scorecardType = GROSS_SCORE;
     private boolean _ignoreShotData = false;
     private boolean _ignoreNoShotData = false;
+    private Date _distancesEnteredDate = new Date();
 
     public SWControl(final String hostAppPackageName, final Context context) {
         super(context, hostAppPackageName);
@@ -462,7 +460,8 @@ public class SWControl extends ControlExtension {
 
         _locationObject = locationObject;
 
-        if (_locationObject != null && (_roundObject == null || ((Integer)_locationObject.get("holeNum")).intValue() != (Integer)_roundObject.get("holeNum"))) {
+        if (_locationObject != null
+                && (_roundObject == null || ((Integer)_locationObject.get("holeNum")).intValue() != (Integer)_roundObject.get("holeNum"))) {
             requestRoundData();
             return;
         }
@@ -496,7 +495,8 @@ public class SWControl extends ControlExtension {
         if (_currentLayout == DISTANCE_LAYOUT || _currentLayout == SCORECARD_LAYOUT || _currentLayout == CLUB_TRACKER_LAYOUT) {
             if ((Boolean)_locationObject.get("isOnNextHole") == true
                     && ((Integer)_locationObject.get("holeNum")).intValue() == (Integer)_roundObject.get("holeNum")
-                    && ((List<Map<String, Object>>)_roundObject.get("scorecards")).size() > 0) {
+                    && ((List<Map<String, Object>>)_roundObject.get("scorecards")).size() > 0
+                    && new Date().getTime() > _distancesEnteredDate.getTime() + 5000) {
                 showScoreEntryLayout();
                 return;
             }
@@ -737,7 +737,7 @@ public class SWControl extends ControlExtension {
             @Override
             public void run() {
                 showLayout(R.layout.hole_selection_control, null);
-                sendListCount(R.id.hole_selection_listview, (int)Math.ceil(((double)holeMaps.size() + 1) / 3.0));
+                sendListCount(R.id.hole_selection_listview, (int) Math.ceil(((double) holeMaps.size() + 1) / 3.0));
             }
         });
     }
@@ -1172,6 +1172,8 @@ public class SWControl extends ControlExtension {
         intent.setAction("send_message");
         intent.putExtra("json_string", jsonString);
         mContext.startService(intent);
+
+        _distancesEnteredDate = new Date();
     }
 
     private void wakeGPS() throws Throwable {

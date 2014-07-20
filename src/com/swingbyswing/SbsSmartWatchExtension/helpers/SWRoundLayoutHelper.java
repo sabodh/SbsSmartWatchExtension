@@ -244,7 +244,7 @@ public class SWRoundLayoutHelper {
                 text1Bundle.putInt(Control.Intents.EXTRA_LAYOUT_REFERENCE, R.id.text_3);
             }
 
-            text1Bundle.putString(Control.Intents.EXTRA_TEXT, clubMap.get("type") + " - " + clubMap.get("average") + measurementType);
+            text1Bundle.putString(Control.Intents.EXTRA_TEXT, "  " + clubMap.get("type") + " - " + clubMap.get("average") + measurementType);
 
             bundles.add(text1Bundle);
         }

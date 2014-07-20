@@ -13,5 +13,6 @@
             android:layout_alignParentTop="true"
             android:gravity="center"
             android:text="No scorecard enabled"
+            android:textSize="@dimen/smart_watch_2_text_size_large"
             android:textColor="@color/white" />
 </RelativeLayout>
