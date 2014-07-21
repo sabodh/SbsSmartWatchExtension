@@ -3,10 +3,10 @@
     <string name="app_name">Swing by Swing SmartWatch Service</string>
     <string name="configuration_text">This is the configuration text</string>
     <string name="extension_name">Swing by Swing</string>
-    <string name="preference_activity_title">Preference Activity</string>
-    <string name="preference_key_read_me">Preference key read-me</string>
-    <string name="preference_option_read_me">Preference option read-me</string>
-    <string name="preference_option_read_me_txt">Preference option read-me text</string>
+    <string name="preference_activity_title">Preferences</string>
+    <string name="preference_key_read_me">Swing by Swing Settings</string>
+    <string name="preference_option_read_me">Swing by Swing Settings</string>
+    <string name="preference_option_read_me_txt">Configure Swing by Swing by opening the Swing by Swing app.  Go to Settings for all options.</string>
     <string name="help_config_title">CONFIGURATION</string>
     <string name="help_config_body_1">Swing by Swing Golf is required on your mobile device.  Install from the Google Play Store.</string>
     <string name="help_config_body_2">Go to Application Settings -> Accessories -> SmartWatch 2, and make sure it is set to ON, then press Save.</string>

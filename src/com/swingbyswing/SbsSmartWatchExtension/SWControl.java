@@ -245,7 +245,21 @@ public class SWControl extends ControlExtension {
             public void run() {
                 try {
                     if (layoutReference == R.id.help_gallery) {
-                        SWHelpLayoutHelper.requestHelpGalleryItem(listItemPosition, SWControl.this);
+                        if (listItemPosition == 0) {
+                            SWHelpLayoutHelper.requestHelpGalleryItem(listItemPosition, _helpConfigItem, SWControl.this);
+                        }
+                        else if (listItemPosition == 1) {
+                            SWHelpLayoutHelper.requestHelpGalleryItem(listItemPosition, _helpGettingStartedItem, SWControl.this);
+                        }
+                        else if (listItemPosition == 2) {
+                            SWHelpLayoutHelper.requestHelpGalleryItem(listItemPosition, _helpDistanceItem, SWControl.this);
+                        }
+                        else if (listItemPosition == 3) {
+                            SWHelpLayoutHelper.requestHelpGalleryItem(listItemPosition, _helpScorecardItem, SWControl.this);
+                        }
+                        else if (listItemPosition == 4) {
+                            SWHelpLayoutHelper.requestHelpGalleryItem(listItemPosition, _helpClubTrackerItem, SWControl.this);
+                        }
                     } else if (layoutReference == R.id.scorecard_listview) {
                         SWRoundLayoutHelper.requestScorecardListViewItem(listItemPosition, SWControl.this, _roundObject, _scorecardType);
                     } else if (layoutReference == R.id.club_tracker_listview) {
