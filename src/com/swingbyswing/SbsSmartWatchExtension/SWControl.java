@@ -84,7 +84,12 @@ public class SWControl extends ControlExtension {
             @Override
             public void run() {
                 try {
-                    showWaitingForRoundLayout();
+                    if (_roundObject != null && _locationObject != null) {
+                        showDistanceLayout();
+                    }
+                    else {
+                        showWaitingForRoundLayout();
+                    }
                 }
                 catch (Throwable throwable) {
                     SWErrorHelper.handleError(throwable);
@@ -549,7 +554,14 @@ public class SWControl extends ControlExtension {
 
         Bundle distanceBundle = new Bundle();
         distanceBundle.putInt(Control.Intents.EXTRA_LAYOUT_REFERENCE, R.id.distance_button);
-        distanceBundle.putString(Control.Intents.EXTRA_TEXT, _locationObject.get("distance") + "" + _roundObject.get("measurementType"));
+
+        if (_locationObject.get("distance") != null) {
+            distanceBundle.putString(Control.Intents.EXTRA_TEXT, _locationObject.get("distance") + "" + _roundObject.get("measurementType"));
+        }
+        else {
+            distanceBundle.putString(Control.Intents.EXTRA_TEXT, "--");
+        }
+
         bundles.add(distanceBundle);
 
         Bundle activeBundle = new Bundle();
