@@ -90,6 +90,8 @@ public class SWControl extends ControlExtension {
                     else {
                         showWaitingForRoundLayout();
                     }
+
+                    wakeGPS();
                 }
                 catch (Throwable throwable) {
                     SWErrorHelper.handleError(throwable);
@@ -866,7 +868,7 @@ public class SWControl extends ControlExtension {
         final List<Bundle> bundles = new ArrayList<Bundle>();
         Bundle text1Bundle = new Bundle();
         text1Bundle.putInt(Control.Intents.EXTRA_LAYOUT_REFERENCE, R.id.score_entry_title);
-        text1Bundle.putString(Control.Intents.EXTRA_TEXT, scorecardMap.get("name") + "");
+        text1Bundle.putString(Control.Intents.EXTRA_TEXT, "#" + _roundObject.get("holeNum") + " | " + scorecardMap.get("name") + "");
         bundles.add(text1Bundle);
 
         final int finalListCount = listCount;
